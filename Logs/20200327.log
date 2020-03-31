@@ -1,0 +1,70 @@
+0	00:01:23.803	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	00:01:23.804	trend-magic [DJI30],Daily: uninit reason 3
+0	00:01:23.804	CMF_v1 [DJI30],Daily: uninit reason 3
+0	00:01:23.804	ATR [DJI30],Daily: uninit reason 3
+0	00:01:23.804	Admiral Candle Countdown [DJI30],H4: initialized
+0	00:01:23.804	trend-magic [DJI30],H4: initialized
+0	00:01:23.805	CMF_v1 [DJI30],H4: initialized
+0	00:01:23.805	ATR [DJI30],H4: initialized
+0	00:01:46.430	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	00:01:46.430	trend-magic [DJI30],H4: uninit reason 3
+0	00:01:46.430	CMF_v1 [DJI30],H4: uninit reason 3
+0	00:01:46.430	ATR [DJI30],H4: uninit reason 3
+0	00:01:46.430	Admiral Candle Countdown [DJI30],H1: initialized
+0	00:01:46.430	trend-magic [DJI30],H1: initialized
+0	00:01:46.431	CMF_v1 [DJI30],H1: initialized
+0	00:01:46.431	ATR [DJI30],H1: initialized
+0	00:02:21.164	Admiral Candle Countdown [DJI30],H1: uninit reason 4
+0	00:02:21.164	trend-magic [DJI30],H1: uninit reason 4
+0	00:02:21.164	CMF_v1 [DJI30],H1: uninit reason 4
+0	00:02:21.164	ATR [DJI30],H1: uninit reason 4
+0	00:02:21.174	Custom indicator Admiral Candle Countdown [DJI30],H1: removed
+0	00:02:21.181	Custom indicator trend-magic [DJI30],H1: removed
+0	00:02:21.187	Custom indicator CMF_v1 [DJI30],H1: removed
+0	00:02:21.194	Custom indicator ATR [DJI30],H1: removed
+0	00:02:23.322	Heiken Ashi GOLD,Weekly: uninit reason 4
+0	00:02:23.331	Custom indicator Heiken Ashi GOLD,Weekly: removed
+0	00:03:41.486	trend-magic XRPUSD,Daily: uninit reason 3
+0	00:03:41.486	CMF_v1 XRPUSD,Daily: uninit reason 3
+0	00:03:41.486	Aroon_Up_Down XRPUSD,Daily: uninit reason 3
+0	00:03:41.486	ATR XRPUSD,Daily: uninit reason 3
+0	00:03:41.487	trend-magic XRPUSD,H4: initialized
+0	00:03:41.487	CMF_v1 XRPUSD,H4: initialized
+0	00:03:41.487	Aroon_Up_Down XRPUSD,H4: initialized
+0	00:03:41.487	ATR XRPUSD,H4: initialized
+0	00:28:32.907	trend-magic BTCUSD,Daily: uninit reason 3
+0	00:28:32.907	ZigZag BTCUSD,Daily: uninit reason 3
+0	00:28:32.907	CMF_v1 BTCUSD,Daily: uninit reason 3
+0	00:28:32.907	Aroon_Up_Down BTCUSD,Daily: uninit reason 3
+0	00:28:32.907	ATR BTCUSD,Daily: uninit reason 3
+0	00:28:32.910	trend-magic BTCUSD,H1: initialized
+0	00:28:32.910	ZigZag BTCUSD,H1: initialized
+0	00:28:32.911	CMF_v1 BTCUSD,H1: initialized
+0	00:28:32.911	Aroon_Up_Down BTCUSD,H1: initialized
+0	00:28:32.911	ATR BTCUSD,H1: initialized
+0	00:28:33.553	trend-magic BTCUSD,H1: uninit reason 3
+0	00:28:33.553	ZigZag BTCUSD,H1: uninit reason 3
+0	00:28:33.553	CMF_v1 BTCUSD,H1: uninit reason 3
+0	00:28:33.553	Aroon_Up_Down BTCUSD,H1: uninit reason 3
+0	00:28:33.553	ATR BTCUSD,H1: uninit reason 3
+0	00:28:33.553	trend-magic BTCUSD,H4: initialized
+0	00:28:33.554	ZigZag BTCUSD,H4: initialized
+0	00:28:33.554	CMF_v1 BTCUSD,H4: initialized
+0	00:28:33.554	Aroon_Up_Down BTCUSD,H4: initialized
+0	00:28:33.554	ATR BTCUSD,H4: initialized
+0	18:37:10.275	trend-magic [DJI30],H1: uninit reason 3
+0	18:37:10.275	CMF_v1 [DJI30],H1: uninit reason 3
+0	18:37:10.275	Aroon_Up_Down [DJI30],H1: uninit reason 3
+0	18:37:10.275	ATR [DJI30],H1: uninit reason 3
+0	18:37:10.277	trend-magic [DJI30],H4: initialized
+0	18:37:10.277	CMF_v1 [DJI30],H4: initialized
+0	18:37:10.277	Aroon_Up_Down [DJI30],H4: initialized
+0	18:37:10.278	ATR [DJI30],H4: initialized
+0	18:37:21.271	trend-magic [DJI30],H4: uninit reason 3
+0	18:37:21.271	CMF_v1 [DJI30],H4: uninit reason 3
+0	18:37:21.271	Aroon_Up_Down [DJI30],H4: uninit reason 3
+0	18:37:21.271	ATR [DJI30],H4: uninit reason 3
+0	18:37:21.273	trend-magic [DJI30],H1: initialized
+0	18:37:21.273	CMF_v1 [DJI30],H1: initialized
+0	18:37:21.274	Aroon_Up_Down [DJI30],H1: initialized
+0	18:37:21.274	ATR [DJI30],H1: initialized

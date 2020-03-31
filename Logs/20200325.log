@@ -1,0 +1,82 @@
+0	00:05:14.021	trend-magic EURGBP,H1: uninit reason 3
+0	00:05:14.099	CMF_v1 EURGBP,H1: uninit reason 3
+0	00:05:14.099	Aroon_Up_Down EURGBP,H1: uninit reason 3
+0	00:05:14.187	trend-magic EURGBP,M15: initialized
+0	00:05:14.187	CMF_v1 EURGBP,M15: initialized
+0	00:05:14.187	Aroon_Up_Down EURGBP,M15: initialized
+0	00:05:21.420	trend-magic EURGBP,M15: uninit reason 3
+0	00:05:21.420	CMF_v1 EURGBP,M15: uninit reason 3
+0	00:05:21.420	Aroon_Up_Down EURGBP,M15: uninit reason 3
+0	00:05:21.530	trend-magic EURGBP,M5: initialized
+0	00:05:21.531	CMF_v1 EURGBP,M5: initialized
+0	00:05:21.532	Aroon_Up_Down EURGBP,M5: initialized
+0	00:05:23.089	trend-magic EURGBP,M5: uninit reason 3
+0	00:05:23.089	CMF_v1 EURGBP,M5: uninit reason 3
+0	00:05:23.089	Aroon_Up_Down EURGBP,M5: uninit reason 3
+0	00:05:23.089	trend-magic EURGBP,M15: initialized
+0	00:05:23.089	CMF_v1 EURGBP,M15: initialized
+0	00:05:23.089	Aroon_Up_Down EURGBP,M15: initialized
+0	00:07:12.358	trend-magic EURGBP,M15: uninit reason 3
+0	00:07:12.358	CMF_v1 EURGBP,M15: uninit reason 3
+0	00:07:12.358	Aroon_Up_Down EURGBP,M15: uninit reason 3
+0	00:07:12.358	trend-magic EURGBP,H4: initialized
+0	00:07:12.358	CMF_v1 EURGBP,H4: initialized
+0	00:07:12.358	Aroon_Up_Down EURGBP,H4: initialized
+0	00:08:05.729	trend-magic EURGBP,H4: uninit reason 3
+0	00:08:05.729	CMF_v1 EURGBP,H4: uninit reason 3
+0	00:08:05.729	Aroon_Up_Down EURGBP,H4: uninit reason 3
+0	00:08:05.729	trend-magic EURGBP,Daily: initialized
+0	00:08:05.729	CMF_v1 EURGBP,Daily: initialized
+0	00:08:05.729	Aroon_Up_Down EURGBP,Daily: initialized
+0	00:12:30.414	CMF_v1 EURGBP,Daily: uninit reason 5
+0	00:12:30.470	CMF_v1 EURGBP,Daily: initialized
+0	00:12:46.443	CMF_v1 EURGBP,Daily: uninit reason 5
+0	00:12:46.481	CMF_v1 EURGBP,Daily: initialized
+0	00:12:56.482	CMF_v1 EURGBP,Daily: uninit reason 5
+0	00:12:56.522	CMF_v1 EURGBP,Daily: initialized
+0	00:13:11.932	CMF_v1 EURGBP,Daily: uninit reason 5
+0	00:13:11.979	CMF_v1 EURGBP,Daily: initialized
+0	00:14:10.011	trend-magic XRPUSD,Daily: uninit reason 4
+0	00:14:10.011	ZigZag XRPUSD,Daily: uninit reason 4
+0	00:14:10.011	CMF_v1 XRPUSD,Daily: uninit reason 4
+0	00:14:10.011	Aroon_Up_Down XRPUSD,Daily: uninit reason 4
+0	00:14:10.011	ATR XRPUSD,Daily: uninit reason 4
+0	00:14:10.011	Rex XRPUSD,Daily: uninit reason 4
+0	00:14:10.027	Custom indicator trend-magic XRPUSD,Daily: removed
+0	00:14:10.042	Custom indicator ZigZag XRPUSD,Daily: removed
+0	00:14:10.042	Custom indicator CMF_v1 XRPUSD,Daily: removed
+0	00:14:10.042	Custom indicator Aroon_Up_Down XRPUSD,Daily: removed
+0	00:14:10.058	Custom indicator ATR XRPUSD,Daily: removed
+0	00:14:10.058	Custom indicator Rex XRPUSD,Daily: removed
+0	00:14:21.248	trend-magic GOLD,H1: uninit reason 3
+0	00:14:21.249	CMF_v1 GOLD,H1: uninit reason 3
+0	00:14:21.249	Aroon_Up_Down GOLD,H1: uninit reason 3
+0	00:14:21.249	ATR GOLD,H1: uninit reason 3
+0	00:14:21.249	Rex GOLD,H1: uninit reason 3
+0	00:14:21.329	trend-magic GOLD,Daily: initialized
+0	00:14:21.329	CMF_v1 GOLD,Daily: initialized
+0	00:14:21.329	Aroon_Up_Down GOLD,Daily: initialized
+0	00:14:21.330	ATR GOLD,Daily: initialized
+0	00:14:21.330	Rex GOLD,Daily: initialized
+0	00:14:21.876	trend-magic GOLD,Daily: uninit reason 3
+0	00:14:21.876	CMF_v1 GOLD,Daily: uninit reason 3
+0	00:14:21.876	Aroon_Up_Down GOLD,Daily: uninit reason 3
+0	00:14:21.876	ATR GOLD,Daily: uninit reason 3
+0	00:14:21.876	Rex GOLD,Daily: uninit reason 3
+0	00:14:21.876	trend-magic GOLD,Weekly: initialized
+0	00:14:21.876	CMF_v1 GOLD,Weekly: initialized
+0	00:14:21.876	Aroon_Up_Down GOLD,Weekly: initialized
+0	00:14:21.876	ATR GOLD,Weekly: initialized
+0	00:14:21.876	Rex GOLD,Weekly: initialized
+0	00:14:40.123	trend-magic GOLD,Weekly: uninit reason 3
+0	00:14:40.123	CMF_v1 GOLD,Weekly: uninit reason 3
+0	00:14:40.123	Aroon_Up_Down GOLD,Weekly: uninit reason 3
+0	00:14:40.123	ATR GOLD,Weekly: uninit reason 3
+0	00:14:40.123	Rex GOLD,Weekly: uninit reason 3
+0	00:14:40.217	trend-magic GOLD,H4: initialized
+0	00:14:40.217	CMF_v1 GOLD,H4: initialized
+0	00:14:40.217	Aroon_Up_Down GOLD,H4: initialized
+0	00:14:40.217	ATR GOLD,H4: initialized
+0	00:14:40.217	Rex GOLD,H4: initialized
+0	00:15:01.547	Rex GOLD,H4: uninit reason 1
+0	00:15:01.554	Custom indicator Rex GOLD,H4: removed

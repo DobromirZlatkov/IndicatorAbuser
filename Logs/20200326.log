@@ -1,0 +1,592 @@
+0	09:06:23.265	trend-magic USDCAD,H4: uninit reason 3
+0	09:06:23.265	CMF_v1 USDCAD,H4: uninit reason 3
+0	09:06:23.265	Aroon_Up_Down USDCAD,H4: uninit reason 3
+0	09:06:23.265	ATR USDCAD,H4: uninit reason 3
+0	09:06:23.265	Rex USDCAD,H4: uninit reason 3
+0	09:06:23.281	trend-magic USDCAD,H1: initialized
+0	09:06:23.281	CMF_v1 USDCAD,H1: initialized
+0	09:06:23.281	Aroon_Up_Down USDCAD,H1: initialized
+0	09:06:23.281	ATR USDCAD,H1: initialized
+0	09:06:23.281	Rex USDCAD,H1: initialized
+0	09:06:24.580	trend-magic USDCAD,H1: uninit reason 3
+0	09:06:24.580	CMF_v1 USDCAD,H1: uninit reason 3
+0	09:06:24.580	Aroon_Up_Down USDCAD,H1: uninit reason 3
+0	09:06:24.580	ATR USDCAD,H1: uninit reason 3
+0	09:06:24.580	Rex USDCAD,H1: uninit reason 3
+0	09:06:24.580	trend-magic USDCAD,H4: initialized
+0	09:06:24.581	CMF_v1 USDCAD,H4: initialized
+0	09:06:24.581	Aroon_Up_Down USDCAD,H4: initialized
+0	09:06:24.581	ATR USDCAD,H4: initialized
+0	09:06:24.581	Rex USDCAD,H4: initialized
+0	09:11:04.861	trend-magic GOLD,H4: uninit reason 3
+0	09:11:04.861	CMF_v1 GOLD,H4: uninit reason 3
+0	09:11:04.861	Aroon_Up_Down GOLD,H4: uninit reason 3
+0	09:11:04.861	ATR GOLD,H4: uninit reason 3
+0	09:11:04.861	trend-magic GOLD,H1: initialized
+0	09:11:04.861	CMF_v1 GOLD,H1: initialized
+0	09:11:04.861	Aroon_Up_Down GOLD,H1: initialized
+0	09:11:04.861	ATR GOLD,H1: initialized
+0	09:12:20.582	Aroon_Up_Down GOLD,H1: uninit reason 5
+0	09:12:20.623	Aroon_Up_Down GOLD,H1: initialized
+0	09:12:50.267	trend-magic GOLD,H1: uninit reason 3
+0	09:12:50.267	CMF_v1 GOLD,H1: uninit reason 3
+0	09:12:50.267	Aroon_Up_Down GOLD,H1: uninit reason 3
+0	09:12:50.267	ATR GOLD,H1: uninit reason 3
+0	09:12:50.267	trend-magic GOLD,H4: initialized
+0	09:12:50.267	CMF_v1 GOLD,H4: initialized
+0	09:12:50.267	Aroon_Up_Down GOLD,H4: initialized
+0	09:12:50.267	ATR GOLD,H4: initialized
+0	09:13:22.648	Aroon_Up_Down GOLD,H4: uninit reason 5
+0	09:13:22.679	Aroon_Up_Down GOLD,H4: initialized
+0	09:13:37.664	Aroon_Up_Down GOLD,H4: uninit reason 5
+0	09:13:37.696	Aroon_Up_Down GOLD,H4: initialized
+0	09:13:59.704	Aroon_Up_Down GOLD,H4: uninit reason 5
+0	09:13:59.751	Aroon_Up_Down GOLD,H4: initialized
+0	09:14:35.312	Aroon_Up_Down GOLD,H4: uninit reason 5
+0	09:14:35.352	Aroon_Up_Down GOLD,H4: initialized
+0	10:15:50.377	trend-magic GOLD,H4: uninit reason 3
+0	10:15:50.377	CMF_v1 GOLD,H4: uninit reason 3
+0	10:15:50.377	Aroon_Up_Down GOLD,H4: uninit reason 3
+0	10:15:50.377	ATR GOLD,H4: uninit reason 3
+0	10:15:50.387	trend-magic GOLD,Daily: initialized
+0	10:15:50.387	CMF_v1 GOLD,Daily: initialized
+0	10:15:50.387	Aroon_Up_Down GOLD,Daily: initialized
+0	10:15:50.388	ATR GOLD,Daily: initialized
+0	10:16:24.337	trend-magic GOLD,Daily: uninit reason 3
+0	10:16:24.337	CMF_v1 GOLD,Daily: uninit reason 3
+0	10:16:24.337	Aroon_Up_Down GOLD,Daily: uninit reason 3
+0	10:16:24.337	ATR GOLD,Daily: uninit reason 3
+0	10:16:24.337	trend-magic GOLD,H4: initialized
+0	10:16:24.337	CMF_v1 GOLD,H4: initialized
+0	10:16:24.338	Aroon_Up_Down GOLD,H4: initialized
+0	10:16:24.338	ATR GOLD,H4: initialized
+0	11:08:32.272	Custom indicator trend-magic [DJI30],H1: loaded successfully
+0	11:08:32.304	Custom indicator CMF_v1 [DJI30],H1: loaded successfully
+0	11:08:32.338	Custom indicator Aroon_Up_Down [DJI30],H1: loaded successfully
+0	11:08:32.382	Custom indicator ATR [DJI30],H1: loaded successfully
+0	23:21:10.826	Custom indicator Admiral Candle Countdown EURUSD,Daily: loaded successfully
+0	23:21:10.945	Admiral Candle Countdown EURUSD,Daily: initialized
+0	23:21:11.010	Custom indicator Admiral Candle Countdown EURUSD,H4: loaded successfully
+0	23:21:11.025	Custom indicator ATR EURUSD,H4: loaded successfully
+0	23:21:11.181	Admiral Candle Countdown EURUSD,H4: initialized
+0	23:21:11.224	ATR EURUSD,H4: initialized
+0	23:21:11.314	Custom indicator ssl-channel-chart-alert-indicator EURUSD,Daily: loaded successfully
+0	23:21:11.345	Custom indicator trend-magic EURUSD,Daily: loaded successfully
+0	23:21:11.373	Custom indicator CMF_v1 EURUSD,Daily: loaded successfully
+0	23:21:11.451	ssl-channel-chart-alert-indicator EURUSD,Daily: initialized
+0	23:21:11.491	trend-magic EURUSD,Daily: initialized
+0	23:21:11.535	CMF_v1 EURUSD,Daily: initialized
+0	23:21:11.671	Custom indicator Admiral Candle Countdown EURUSD,H1: loaded successfully
+0	23:21:11.814	Admiral Candle Countdown EURUSD,H1: initialized
+0	23:21:11.874	Custom indicator trend-magic GBPUSD,H1: loaded successfully
+0	23:21:11.892	Custom indicator ATR GBPUSD,H1: loaded successfully
+0	23:21:11.919	Custom indicator CMF_v1 GBPUSD,H1: loaded successfully
+0	23:21:12.007	trend-magic GBPUSD,H1: initialized
+0	23:21:12.034	ATR GBPUSD,H1: initialized
+0	23:21:12.058	CMF_v1 GBPUSD,H1: initialized
+0	23:21:12.211	Custom indicator Admiral Candle Countdown GBPUSD,H1: loaded successfully
+0	23:21:12.236	Custom indicator trend-magic GBPUSD,H1: loaded successfully
+0	23:21:12.263	Custom indicator CMF_v1 GBPUSD,H1: loaded successfully
+0	23:21:12.291	Custom indicator ATR GBPUSD,H1: loaded successfully
+0	23:21:12.341	Admiral Candle Countdown GBPUSD,H1: initialized
+0	23:21:12.367	trend-magic GBPUSD,H1: initialized
+0	23:21:12.391	CMF_v1 GBPUSD,H1: initialized
+0	23:21:12.418	ATR GBPUSD,H1: initialized
+0	23:21:12.561	Custom indicator Admiral Candle Countdown EURGBP,Daily: loaded successfully
+0	23:21:12.579	Custom indicator ssl-channel-chart-alert-indicator EURGBP,Daily: loaded successfully
+0	23:21:12.597	Custom indicator CMF_v1 EURGBP,Daily: loaded successfully
+0	23:21:12.618	Custom indicator ATR EURGBP,Daily: loaded successfully
+0	23:21:12.669	Admiral Candle Countdown EURGBP,Daily: initialized
+0	23:21:12.692	ssl-channel-chart-alert-indicator EURGBP,Daily: initialized
+0	23:21:12.707	CMF_v1 EURGBP,Daily: initialized
+0	23:21:12.743	ATR EURGBP,Daily: initialized
+0	23:21:12.816	Custom indicator Admiral Candle Countdown LTCUSD,Daily: loaded successfully
+0	23:21:12.833	Custom indicator trend-magic LTCUSD,Daily: loaded successfully
+0	23:21:12.842	Custom indicator CMF_v1 LTCUSD,Daily: loaded successfully
+0	23:21:13.047	Admiral Candle Countdown LTCUSD,Daily: initialized
+0	23:21:13.092	trend-magic LTCUSD,Daily: initialized
+0	23:21:13.148	CMF_v1 LTCUSD,Daily: initialized
+0	23:21:13.507	Custom indicator trend-magic XRPUSD,H4: loaded successfully
+0	23:21:13.561	Custom indicator CMF_v1 XRPUSD,H4: loaded successfully
+0	23:21:13.659	trend-magic XRPUSD,H4: initialized
+0	23:21:13.707	CMF_v1 XRPUSD,H4: initialized
+0	23:21:13.857	Custom indicator Admiral Candle Countdown BTCUSD,Weekly: loaded successfully
+0	23:21:13.892	Custom indicator ZigZag BTCUSD,Weekly: loaded successfully
+0	23:21:13.939	Custom indicator trend-magic BTCUSD,Weekly: loaded successfully
+0	23:21:14.092	Admiral Candle Countdown BTCUSD,Weekly: initialized
+0	23:21:14.137	ZigZag BTCUSD,Weekly: initialized
+0	23:21:14.180	trend-magic BTCUSD,Weekly: initialized
+0	23:21:14.280	Custom indicator Admiral Candle Countdown [DJI30],H4: loaded successfully
+0	23:21:14.323	Custom indicator trend-magic [DJI30],H4: loaded successfully
+0	23:21:14.358	Custom indicator CMF_v1 [DJI30],H4: loaded successfully
+0	23:21:14.408	Custom indicator ATR [DJI30],H4: loaded successfully
+0	23:21:14.534	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:21:14.571	trend-magic [DJI30],H4: initialized
+0	23:21:14.618	CMF_v1 [DJI30],H4: initialized
+0	23:21:14.658	ATR [DJI30],H4: initialized
+0	23:21:14.824	Custom indicator Admiral Candle Countdown BCHUSD,Daily: loaded successfully
+0	23:21:14.852	Custom indicator trend-magic BCHUSD,Daily: loaded successfully
+0	23:21:14.874	Custom indicator CMF_v1 BCHUSD,Daily: loaded successfully
+0	23:21:14.918	Custom indicator ATR BCHUSD,Daily: loaded successfully
+0	23:21:14.991	Admiral Candle Countdown BCHUSD,Daily: initialized
+0	23:21:15.041	trend-magic BCHUSD,Daily: initialized
+0	23:21:15.074	CMF_v1 BCHUSD,Daily: initialized
+0	23:21:15.108	ATR BCHUSD,Daily: initialized
+0	23:21:15.377	Custom indicator ZigZag XRPUSD,Daily: loaded successfully
+0	23:21:15.403	Custom indicator trend-magic XRPUSD,Daily: loaded successfully
+0	23:21:15.424	Custom indicator ATR XRPUSD,Daily: loaded successfully
+0	23:21:15.474	Custom indicator CMF_v1 XRPUSD,Daily: loaded successfully
+0	23:21:15.576	ZigZag XRPUSD,Daily: initialized
+0	23:21:15.624	trend-magic XRPUSD,Daily: initialized
+0	23:21:15.664	ATR XRPUSD,Daily: initialized
+0	23:21:15.691	CMF_v1 XRPUSD,Daily: initialized
+0	23:21:15.788	Custom indicator ZigZag ETHUSD,Daily: loaded successfully
+0	23:21:15.816	Custom indicator ATR ETHUSD,Daily: loaded successfully
+0	23:21:15.858	ZigZag ETHUSD,Daily: initialized
+0	23:21:15.907	ATR ETHUSD,Daily: initialized
+0	23:21:15.965	Custom indicator ZigZag BTCUSD,H4: loaded successfully
+0	23:21:15.989	Custom indicator CMF_v1 BTCUSD,H4: loaded successfully
+0	23:21:16.045	ZigZag BTCUSD,H4: initialized
+0	23:21:16.059	CMF_v1 BTCUSD,H4: initialized
+0	23:21:16.153	Custom indicator trend-magic BTCUSD,H4: loaded successfully
+0	23:21:16.175	Custom indicator ZigZag BTCUSD,H4: loaded successfully
+0	23:21:16.197	Custom indicator CMF_v1 BTCUSD,H4: loaded successfully
+0	23:21:16.221	Custom indicator Aroon_Up_Down BTCUSD,H4: loaded successfully
+0	23:21:16.256	Custom indicator ATR BTCUSD,H4: loaded successfully
+0	23:21:16.295	Custom indicator Rex BTCUSD,H4: loaded successfully
+0	23:21:16.337	trend-magic BTCUSD,H4: initialized
+0	23:21:16.374	ZigZag BTCUSD,H4: initialized
+0	23:21:16.404	CMF_v1 BTCUSD,H4: initialized
+0	23:21:16.436	Aroon_Up_Down BTCUSD,H4: initialized
+0	23:21:16.470	ATR BTCUSD,H4: initialized
+0	23:21:16.497	Rex BTCUSD,H4: initialized
+0	23:21:16.615	Custom indicator CMF_v1 LTCUSD,Daily: loaded successfully
+0	23:21:16.643	CMF_v1 LTCUSD,Daily: initialized
+0	23:21:16.741	Custom indicator Admiral Candle Countdown XRPUSD,Daily: loaded successfully
+0	23:21:16.767	Custom indicator ATR XRPUSD,Daily: loaded successfully
+0	23:21:16.806	Admiral Candle Countdown XRPUSD,Daily: initialized
+0	23:21:16.842	ATR XRPUSD,Daily: initialized
+0	23:21:16.890	Custom indicator trend-magic GBPCHF,Daily: loaded successfully
+0	23:21:16.929	Custom indicator ZigZag GBPCHF,Daily: loaded successfully
+0	23:21:16.953	Custom indicator CMF_v1 GBPCHF,Daily: loaded successfully
+0	23:21:16.980	Custom indicator Aroon_Up_Down GBPCHF,Daily: loaded successfully
+0	23:21:17.021	Custom indicator ATR GBPCHF,Daily: loaded successfully
+0	23:21:17.049	Custom indicator Rex GBPCHF,Daily: loaded successfully
+0	23:21:17.107	trend-magic GBPCHF,Daily: initialized
+0	23:21:17.141	ZigZag GBPCHF,Daily: initialized
+0	23:21:17.182	CMF_v1 GBPCHF,Daily: initialized
+0	23:21:17.213	Aroon_Up_Down GBPCHF,Daily: initialized
+0	23:21:17.254	ATR GBPCHF,Daily: initialized
+0	23:21:17.292	Rex GBPCHF,Daily: initialized
+0	23:21:17.379	Custom indicator trend-magic AUDNZD,H4: loaded successfully
+0	23:21:17.405	Custom indicator CMF_v1 AUDNZD,H4: loaded successfully
+0	23:21:17.432	Custom indicator Aroon_Up_Down AUDNZD,H4: loaded successfully
+0	23:21:17.457	Custom indicator ATR AUDNZD,H4: loaded successfully
+0	23:21:17.485	Custom indicator Rex AUDNZD,H4: loaded successfully
+0	23:21:17.550	trend-magic AUDNZD,H4: initialized
+0	23:21:17.576	CMF_v1 AUDNZD,H4: initialized
+0	23:21:17.602	Aroon_Up_Down AUDNZD,H4: initialized
+0	23:21:17.636	ATR AUDNZD,H4: initialized
+0	23:21:17.661	Rex AUDNZD,H4: initialized
+0	23:21:17.815	Custom indicator Heiken Ashi GOLD,Weekly: loaded successfully
+0	23:21:17.853	Heiken Ashi GOLD,Weekly: initialized
+0	23:21:17.939	Custom indicator trend-magic GOLD,H4: loaded successfully
+0	23:21:17.958	Custom indicator CMF_v1 GOLD,H4: loaded successfully
+0	23:21:17.978	Custom indicator Aroon_Up_Down GOLD,H4: loaded successfully
+0	23:21:17.998	Custom indicator ATR GOLD,H4: loaded successfully
+0	23:21:18.054	trend-magic GOLD,H4: initialized
+0	23:21:18.080	CMF_v1 GOLD,H4: initialized
+0	23:21:18.104	Aroon_Up_Down GOLD,H4: initialized
+0	23:21:18.128	ATR GOLD,H4: initialized
+0	23:21:18.198	Custom indicator trend-magic USDCAD,H4: loaded successfully
+0	23:21:18.226	Custom indicator CMF_v1 USDCAD,H4: loaded successfully
+0	23:21:18.252	Custom indicator Aroon_Up_Down USDCAD,H4: loaded successfully
+0	23:21:18.278	Custom indicator ATR USDCAD,H4: loaded successfully
+0	23:21:18.298	Custom indicator Rex USDCAD,H4: loaded successfully
+0	23:21:18.360	trend-magic USDCAD,H4: initialized
+0	23:21:18.384	CMF_v1 USDCAD,H4: initialized
+0	23:21:18.412	Aroon_Up_Down USDCAD,H4: initialized
+0	23:21:18.442	ATR USDCAD,H4: initialized
+0	23:21:18.467	Rex USDCAD,H4: initialized
+0	23:21:19.168	Custom indicator trend-magic EURGBP,H4: loaded successfully
+0	23:21:19.265	Custom indicator CMF_v1 EURGBP,H4: loaded successfully
+0	23:21:19.341	Custom indicator Aroon_Up_Down EURGBP,H4: loaded successfully
+0	23:21:19.410	trend-magic EURGBP,H4: initialized
+0	23:21:19.479	CMF_v1 EURGBP,H4: initialized
+0	23:21:19.550	Aroon_Up_Down EURGBP,H4: initialized
+0	23:21:19.853	Custom indicator trend-magic [DJI30],H1: loaded successfully
+0	23:21:19.890	Custom indicator CMF_v1 [DJI30],H1: loaded successfully
+0	23:21:19.927	Custom indicator Aroon_Up_Down [DJI30],H1: loaded successfully
+0	23:21:19.970	Custom indicator ATR [DJI30],H1: loaded successfully
+0	23:21:20.096	trend-magic [DJI30],H1: initialized
+0	23:21:20.131	CMF_v1 [DJI30],H1: initialized
+0	23:21:20.167	Aroon_Up_Down [DJI30],H1: initialized
+0	23:21:20.204	ATR [DJI30],H1: initialized
+0	23:21:20.523	Custom indicator trend-magic EURGBP,Daily: loaded successfully
+0	23:21:20.556	Custom indicator CMF_v1 EURGBP,Daily: loaded successfully
+0	23:21:20.591	Custom indicator Aroon_Up_Down EURGBP,Daily: loaded successfully
+0	23:21:20.631	trend-magic EURGBP,Daily: initialized
+0	23:21:20.677	CMF_v1 EURGBP,Daily: initialized
+0	23:21:20.723	Aroon_Up_Down EURGBP,Daily: initialized
+0	23:26:47.987	ZigZag XRPUSD,Daily: uninit reason 3
+0	23:26:47.987	trend-magic XRPUSD,Daily: uninit reason 3
+0	23:26:47.987	ATR XRPUSD,Daily: uninit reason 3
+0	23:26:47.987	CMF_v1 XRPUSD,Daily: uninit reason 3
+0	23:26:47.987	ZigZag XRPUSD,H4: initialized
+0	23:26:47.987	trend-magic XRPUSD,H4: initialized
+0	23:26:47.987	ATR XRPUSD,H4: initialized
+0	23:26:47.987	CMF_v1 XRPUSD,H4: initialized
+0	23:27:13.639	ZigZag XRPUSD,H4: uninit reason 7
+0	23:27:13.639	trend-magic XRPUSD,H4: uninit reason 7
+0	23:27:13.639	ATR XRPUSD,H4: uninit reason 7
+0	23:27:13.639	CMF_v1 XRPUSD,H4: uninit reason 7
+0	23:27:13.646	Custom indicator ZigZag XRPUSD,H4: removed
+0	23:27:13.653	Custom indicator trend-magic XRPUSD,H4: removed
+0	23:27:13.659	Custom indicator ATR XRPUSD,H4: removed
+0	23:27:13.666	Custom indicator CMF_v1 XRPUSD,H4: removed
+0	23:27:13.711	Custom indicator trend-magic XRPUSD,H4: loaded successfully
+0	23:27:13.749	Custom indicator CMF_v1 XRPUSD,H4: loaded successfully
+0	23:27:13.785	Custom indicator Aroon_Up_Down XRPUSD,H4: loaded successfully
+0	23:27:13.823	Custom indicator ATR XRPUSD,H4: loaded successfully
+0	23:27:13.868	trend-magic XRPUSD,H4: initialized
+0	23:27:13.912	CMF_v1 XRPUSD,H4: initialized
+0	23:27:13.949	Aroon_Up_Down XRPUSD,H4: initialized
+0	23:27:13.987	ATR XRPUSD,H4: initialized
+0	23:27:50.898	ZigZag ETHUSD,Daily: uninit reason 3
+0	23:27:50.898	ATR ETHUSD,Daily: uninit reason 3
+0	23:27:50.939	ZigZag ETHUSD,H1: initialized
+0	23:27:50.939	ATR ETHUSD,H1: initialized
+0	23:28:40.782	trend-magic GBPCHF,Daily: uninit reason 7
+0	23:28:40.782	ZigZag GBPCHF,Daily: uninit reason 7
+0	23:28:40.782	CMF_v1 GBPCHF,Daily: uninit reason 7
+0	23:28:40.782	Aroon_Up_Down GBPCHF,Daily: uninit reason 7
+0	23:28:40.782	ATR GBPCHF,Daily: uninit reason 7
+0	23:28:40.782	Rex GBPCHF,Daily: uninit reason 7
+0	23:28:40.789	Custom indicator trend-magic GBPCHF,Daily: removed
+0	23:28:40.795	Custom indicator ZigZag GBPCHF,Daily: removed
+0	23:28:40.802	Custom indicator CMF_v1 GBPCHF,Daily: removed
+0	23:28:40.809	Custom indicator Aroon_Up_Down GBPCHF,Daily: removed
+0	23:28:40.816	Custom indicator ATR GBPCHF,Daily: removed
+0	23:28:40.823	Custom indicator Rex GBPCHF,Daily: removed
+0	23:28:40.866	Custom indicator trend-magic GBPCHF,Daily: loaded successfully
+0	23:28:40.906	Custom indicator CMF_v1 GBPCHF,Daily: loaded successfully
+0	23:28:40.943	Custom indicator Aroon_Up_Down GBPCHF,Daily: loaded successfully
+0	23:28:40.981	Custom indicator ATR GBPCHF,Daily: loaded successfully
+0	23:28:41.026	trend-magic GBPCHF,Daily: initialized
+0	23:28:41.072	CMF_v1 GBPCHF,Daily: initialized
+0	23:28:41.117	Aroon_Up_Down GBPCHF,Daily: initialized
+0	23:28:41.155	ATR GBPCHF,Daily: initialized
+0	23:28:59.874	Rex AUDNZD,H4: uninit reason 1
+0	23:28:59.881	Custom indicator Rex AUDNZD,H4: removed
+0	23:29:05.494	trend-magic AUDNZD,H4: uninit reason 7
+0	23:29:05.494	CMF_v1 AUDNZD,H4: uninit reason 7
+0	23:29:05.494	Aroon_Up_Down AUDNZD,H4: uninit reason 7
+0	23:29:05.494	ATR AUDNZD,H4: uninit reason 7
+0	23:29:05.501	Custom indicator trend-magic AUDNZD,H4: removed
+0	23:29:05.508	Custom indicator CMF_v1 AUDNZD,H4: removed
+0	23:29:05.515	Custom indicator Aroon_Up_Down AUDNZD,H4: removed
+0	23:29:05.521	Custom indicator ATR AUDNZD,H4: removed
+0	23:29:05.558	Custom indicator trend-magic AUDNZD,H4: loaded successfully
+0	23:29:05.595	Custom indicator CMF_v1 AUDNZD,H4: loaded successfully
+0	23:29:05.631	Custom indicator Aroon_Up_Down AUDNZD,H4: loaded successfully
+0	23:29:05.670	Custom indicator ATR AUDNZD,H4: loaded successfully
+0	23:29:05.715	trend-magic AUDNZD,H4: initialized
+0	23:29:05.760	CMF_v1 AUDNZD,H4: initialized
+0	23:29:05.806	Aroon_Up_Down AUDNZD,H4: initialized
+0	23:29:05.854	ATR AUDNZD,H4: initialized
+0	23:30:19.213	trend-magic AUDNZD,H4: uninit reason 3
+0	23:30:19.213	CMF_v1 AUDNZD,H4: uninit reason 3
+0	23:30:19.213	Aroon_Up_Down AUDNZD,H4: uninit reason 3
+0	23:30:19.213	ATR AUDNZD,H4: uninit reason 3
+0	23:30:19.213	trend-magic AUDNZD,H1: initialized
+0	23:30:19.213	CMF_v1 AUDNZD,H1: initialized
+0	23:30:19.213	Aroon_Up_Down AUDNZD,H1: initialized
+0	23:30:19.214	ATR AUDNZD,H1: initialized
+0	23:31:47.555	trend-magic AUDNZD,H1: uninit reason 3
+0	23:31:47.556	CMF_v1 AUDNZD,H1: uninit reason 3
+0	23:31:47.556	Aroon_Up_Down AUDNZD,H1: uninit reason 3
+0	23:31:47.556	ATR AUDNZD,H1: uninit reason 3
+0	23:31:47.557	trend-magic AUDNZD,H4: initialized
+0	23:31:47.557	CMF_v1 AUDNZD,H4: initialized
+0	23:31:47.557	Aroon_Up_Down AUDNZD,H4: initialized
+0	23:31:47.557	ATR AUDNZD,H4: initialized
+0	23:32:57.687	trend-magic XRPUSD,H4: uninit reason 3
+0	23:32:57.687	CMF_v1 XRPUSD,H4: uninit reason 3
+0	23:32:57.687	Aroon_Up_Down XRPUSD,H4: uninit reason 3
+0	23:32:57.687	ATR XRPUSD,H4: uninit reason 3
+0	23:32:57.687	trend-magic XRPUSD,Daily: initialized
+0	23:32:57.687	CMF_v1 XRPUSD,Daily: initialized
+0	23:32:57.687	Aroon_Up_Down XRPUSD,Daily: initialized
+0	23:32:57.687	ATR XRPUSD,Daily: initialized
+0	23:42:19.231	trend-magic BTCUSD,H4: uninit reason 7
+0	23:42:19.231	ZigZag BTCUSD,H4: uninit reason 7
+0	23:42:19.231	CMF_v1 BTCUSD,H4: uninit reason 7
+0	23:42:19.231	Aroon_Up_Down BTCUSD,H4: uninit reason 7
+0	23:42:19.231	ATR BTCUSD,H4: uninit reason 7
+0	23:42:19.231	Rex BTCUSD,H4: uninit reason 7
+0	23:42:19.238	Custom indicator trend-magic BTCUSD,H4: removed
+0	23:42:19.246	Custom indicator ZigZag BTCUSD,H4: removed
+0	23:42:19.254	Custom indicator CMF_v1 BTCUSD,H4: removed
+0	23:42:19.261	Custom indicator Aroon_Up_Down BTCUSD,H4: removed
+0	23:42:19.268	Custom indicator ATR BTCUSD,H4: removed
+0	23:42:19.277	Custom indicator Rex BTCUSD,H4: removed
+0	23:42:19.321	Custom indicator trend-magic BTCUSD,H4: loaded successfully
+0	23:42:19.364	Custom indicator CMF_v1 BTCUSD,H4: loaded successfully
+0	23:42:19.405	Custom indicator Aroon_Up_Down BTCUSD,H4: loaded successfully
+0	23:42:19.448	Custom indicator ATR BTCUSD,H4: loaded successfully
+0	23:42:19.500	trend-magic BTCUSD,H4: initialized
+0	23:42:19.550	CMF_v1 BTCUSD,H4: initialized
+0	23:42:19.601	Aroon_Up_Down BTCUSD,H4: initialized
+0	23:42:19.656	ATR BTCUSD,H4: initialized
+0	23:44:18.515	Custom indicator ZigZag BTCUSD,H4: loaded successfully
+0	23:44:20.764	ZigZag BTCUSD,H4: initialized
+0	23:44:36.999	trend-magic BTCUSD,H4: uninit reason 3
+0	23:44:36.999	ZigZag BTCUSD,H4: uninit reason 3
+0	23:44:36.999	CMF_v1 BTCUSD,H4: uninit reason 3
+0	23:44:36.999	Aroon_Up_Down BTCUSD,H4: uninit reason 3
+0	23:44:36.999	ATR BTCUSD,H4: uninit reason 3
+0	23:44:37.019	trend-magic BTCUSD,Daily: initialized
+0	23:44:37.019	ZigZag BTCUSD,Daily: initialized
+0	23:44:37.019	CMF_v1 BTCUSD,Daily: initialized
+0	23:44:37.019	Aroon_Up_Down BTCUSD,Daily: initialized
+0	23:44:37.019	ATR BTCUSD,Daily: initialized
+0	23:45:32.655	trend-magic BTCUSD,Daily: uninit reason 3
+0	23:45:32.655	ZigZag BTCUSD,Daily: uninit reason 3
+0	23:45:32.655	CMF_v1 BTCUSD,Daily: uninit reason 3
+0	23:45:32.655	Aroon_Up_Down BTCUSD,Daily: uninit reason 3
+0	23:45:32.655	ATR BTCUSD,Daily: uninit reason 3
+0	23:45:32.655	trend-magic BTCUSD,H4: initialized
+0	23:45:32.655	ZigZag BTCUSD,H4: initialized
+0	23:45:32.656	CMF_v1 BTCUSD,H4: initialized
+0	23:45:32.656	Aroon_Up_Down BTCUSD,H4: initialized
+0	23:45:32.656	ATR BTCUSD,H4: initialized
+0	23:45:36.776	trend-magic BTCUSD,H4: uninit reason 3
+0	23:45:36.776	ZigZag BTCUSD,H4: uninit reason 3
+0	23:45:36.776	CMF_v1 BTCUSD,H4: uninit reason 3
+0	23:45:36.776	Aroon_Up_Down BTCUSD,H4: uninit reason 3
+0	23:45:36.776	ATR BTCUSD,H4: uninit reason 3
+0	23:45:36.991	trend-magic BTCUSD,H1: initialized
+0	23:45:36.992	ZigZag BTCUSD,H1: initialized
+0	23:45:36.992	CMF_v1 BTCUSD,H1: initialized
+0	23:45:36.992	Aroon_Up_Down BTCUSD,H1: initialized
+0	23:45:36.992	ATR BTCUSD,H1: initialized
+0	23:45:38.973	trend-magic BTCUSD,H1: uninit reason 3
+0	23:45:38.973	ZigZag BTCUSD,H1: uninit reason 3
+0	23:45:38.973	CMF_v1 BTCUSD,H1: uninit reason 3
+0	23:45:38.973	Aroon_Up_Down BTCUSD,H1: uninit reason 3
+0	23:45:38.973	ATR BTCUSD,H1: uninit reason 3
+0	23:45:38.974	trend-magic BTCUSD,H4: initialized
+0	23:45:38.974	ZigZag BTCUSD,H4: initialized
+0	23:45:38.974	CMF_v1 BTCUSD,H4: initialized
+0	23:45:38.974	Aroon_Up_Down BTCUSD,H4: initialized
+0	23:45:38.975	ATR BTCUSD,H4: initialized
+0	23:47:14.898	trend-magic BTCUSD,H4: uninit reason 3
+0	23:47:14.898	ZigZag BTCUSD,H4: uninit reason 3
+0	23:47:14.899	CMF_v1 BTCUSD,H4: uninit reason 3
+0	23:47:14.899	Aroon_Up_Down BTCUSD,H4: uninit reason 3
+0	23:47:14.899	ATR BTCUSD,H4: uninit reason 3
+0	23:47:14.899	trend-magic BTCUSD,Daily: initialized
+0	23:47:14.900	ZigZag BTCUSD,Daily: initialized
+0	23:47:14.900	CMF_v1 BTCUSD,Daily: initialized
+0	23:47:14.900	Aroon_Up_Down BTCUSD,Daily: initialized
+0	23:47:14.901	ATR BTCUSD,Daily: initialized
+0	23:51:13.104	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:51:13.104	trend-magic [DJI30],H4: uninit reason 3
+0	23:51:13.104	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:51:13.104	ATR [DJI30],H4: uninit reason 3
+0	23:51:13.114	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:13.114	trend-magic [DJI30],Daily: initialized
+0	23:51:13.115	CMF_v1 [DJI30],Daily: initialized
+0	23:51:13.115	ATR [DJI30],Daily: initialized
+0	23:51:15.539	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:15.539	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:15.539	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:15.539	ATR [DJI30],Daily: uninit reason 3
+0	23:51:15.558	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:15.558	trend-magic [DJI30],Weekly: initialized
+0	23:51:15.558	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:15.558	ATR [DJI30],Weekly: initialized
+0	23:51:19.437	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:19.437	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:19.437	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:19.437	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:19.437	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:19.437	trend-magic [DJI30],Daily: initialized
+0	23:51:19.438	CMF_v1 [DJI30],Daily: initialized
+0	23:51:19.438	ATR [DJI30],Daily: initialized
+0	23:51:20.770	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:20.770	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:20.770	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:20.770	ATR [DJI30],Daily: uninit reason 3
+0	23:51:20.770	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:20.770	trend-magic [DJI30],Weekly: initialized
+0	23:51:20.770	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:20.771	ATR [DJI30],Weekly: initialized
+0	23:51:22.260	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:22.260	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:22.260	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:22.260	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:22.261	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:22.261	trend-magic [DJI30],Daily: initialized
+0	23:51:22.261	CMF_v1 [DJI30],Daily: initialized
+0	23:51:22.261	ATR [DJI30],Daily: initialized
+0	23:51:23.621	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:23.621	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:23.621	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:23.621	ATR [DJI30],Daily: uninit reason 3
+0	23:51:23.621	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:23.621	trend-magic [DJI30],Weekly: initialized
+0	23:51:23.622	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:23.622	ATR [DJI30],Weekly: initialized
+0	23:51:24.796	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:24.796	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:24.796	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:24.796	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:24.797	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:24.797	trend-magic [DJI30],Daily: initialized
+0	23:51:24.797	CMF_v1 [DJI30],Daily: initialized
+0	23:51:24.797	ATR [DJI30],Daily: initialized
+0	23:51:26.941	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:26.941	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:26.941	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:26.941	ATR [DJI30],Daily: uninit reason 3
+0	23:51:26.942	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:51:26.942	trend-magic [DJI30],H4: initialized
+0	23:51:26.942	CMF_v1 [DJI30],H4: initialized
+0	23:51:26.942	ATR [DJI30],H4: initialized
+0	23:51:28.245	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:51:28.245	trend-magic [DJI30],H4: uninit reason 3
+0	23:51:28.245	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:51:28.245	ATR [DJI30],H4: uninit reason 3
+0	23:51:28.245	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:28.245	trend-magic [DJI30],Daily: initialized
+0	23:51:28.245	CMF_v1 [DJI30],Daily: initialized
+0	23:51:28.245	ATR [DJI30],Daily: initialized
+0	23:51:28.860	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:28.860	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:28.860	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:28.860	ATR [DJI30],Daily: uninit reason 3
+0	23:51:28.861	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:28.861	trend-magic [DJI30],Weekly: initialized
+0	23:51:28.861	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:28.861	ATR [DJI30],Weekly: initialized
+0	23:51:29.858	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:29.858	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:29.858	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:29.858	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:29.876	Admiral Candle Countdown [DJI30],Monthly: initialized
+0	23:51:29.876	trend-magic [DJI30],Monthly: initialized
+0	23:51:29.876	CMF_v1 [DJI30],Monthly: initialized
+0	23:51:29.876	ATR [DJI30],Monthly: initialized
+0	23:51:31.601	Admiral Candle Countdown [DJI30],Monthly: uninit reason 3
+0	23:51:31.601	trend-magic [DJI30],Monthly: uninit reason 3
+0	23:51:31.601	CMF_v1 [DJI30],Monthly: uninit reason 3
+0	23:51:31.601	ATR [DJI30],Monthly: uninit reason 3
+0	23:51:31.602	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:31.602	trend-magic [DJI30],Daily: initialized
+0	23:51:31.602	CMF_v1 [DJI30],Daily: initialized
+0	23:51:31.602	ATR [DJI30],Daily: initialized
+0	23:51:32.346	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:32.346	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:32.346	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:32.346	ATR [DJI30],Daily: uninit reason 3
+0	23:51:32.346	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:32.346	trend-magic [DJI30],Weekly: initialized
+0	23:51:32.346	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:32.346	ATR [DJI30],Weekly: initialized
+0	23:51:34.462	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:34.462	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:34.462	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:34.462	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:34.463	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:51:34.463	trend-magic [DJI30],H4: initialized
+0	23:51:34.463	CMF_v1 [DJI30],H4: initialized
+0	23:51:34.463	ATR [DJI30],H4: initialized
+0	23:51:35.148	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:51:35.149	trend-magic [DJI30],H4: uninit reason 3
+0	23:51:35.149	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:51:35.149	ATR [DJI30],H4: uninit reason 3
+0	23:51:35.150	Admiral Candle Countdown [DJI30],H1: initialized
+0	23:51:35.150	trend-magic [DJI30],H1: initialized
+0	23:51:35.150	CMF_v1 [DJI30],H1: initialized
+0	23:51:35.150	ATR [DJI30],H1: initialized
+0	23:51:37.975	Admiral Candle Countdown [DJI30],H1: uninit reason 3
+0	23:51:37.975	trend-magic [DJI30],H1: uninit reason 3
+0	23:51:37.975	CMF_v1 [DJI30],H1: uninit reason 3
+0	23:51:37.975	ATR [DJI30],H1: uninit reason 3
+0	23:51:37.975	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:37.975	trend-magic [DJI30],Daily: initialized
+0	23:51:37.975	CMF_v1 [DJI30],Daily: initialized
+0	23:51:37.975	ATR [DJI30],Daily: initialized
+0	23:51:38.880	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:38.880	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:38.880	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:38.880	ATR [DJI30],Daily: uninit reason 3
+0	23:51:38.880	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:51:38.880	trend-magic [DJI30],H4: initialized
+0	23:51:38.881	CMF_v1 [DJI30],H4: initialized
+0	23:51:38.881	ATR [DJI30],H4: initialized
+0	23:51:39.548	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:51:39.548	trend-magic [DJI30],H4: uninit reason 3
+0	23:51:39.549	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:51:39.549	ATR [DJI30],H4: uninit reason 3
+0	23:51:39.549	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:39.549	trend-magic [DJI30],Daily: initialized
+0	23:51:39.549	CMF_v1 [DJI30],Daily: initialized
+0	23:51:39.549	ATR [DJI30],Daily: initialized
+0	23:51:40.301	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:40.301	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:40.301	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:40.301	ATR [DJI30],Daily: uninit reason 3
+0	23:51:40.301	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:40.302	trend-magic [DJI30],Weekly: initialized
+0	23:51:40.302	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:40.302	ATR [DJI30],Weekly: initialized
+0	23:51:41.231	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:51:41.231	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:51:41.231	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:51:41.231	ATR [DJI30],Weekly: uninit reason 3
+0	23:51:41.232	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:41.232	trend-magic [DJI30],Daily: initialized
+0	23:51:41.232	CMF_v1 [DJI30],Daily: initialized
+0	23:51:41.232	ATR [DJI30],Daily: initialized
+0	23:51:43.648	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:43.648	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:43.648	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:43.648	ATR [DJI30],Daily: uninit reason 3
+0	23:51:43.649	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:51:43.649	trend-magic [DJI30],H4: initialized
+0	23:51:43.649	CMF_v1 [DJI30],H4: initialized
+0	23:51:43.649	ATR [DJI30],H4: initialized
+0	23:51:56.287	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:51:56.287	trend-magic [DJI30],H4: uninit reason 3
+0	23:51:56.287	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:51:56.287	ATR [DJI30],H4: uninit reason 3
+0	23:51:56.289	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:51:56.289	trend-magic [DJI30],Daily: initialized
+0	23:51:56.289	CMF_v1 [DJI30],Daily: initialized
+0	23:51:56.289	ATR [DJI30],Daily: initialized
+0	23:51:57.420	Admiral Candle Countdown [DJI30],Daily: uninit reason 3
+0	23:51:57.421	trend-magic [DJI30],Daily: uninit reason 3
+0	23:51:57.421	CMF_v1 [DJI30],Daily: uninit reason 3
+0	23:51:57.421	ATR [DJI30],Daily: uninit reason 3
+0	23:51:57.421	Admiral Candle Countdown [DJI30],Weekly: initialized
+0	23:51:57.421	trend-magic [DJI30],Weekly: initialized
+0	23:51:57.422	CMF_v1 [DJI30],Weekly: initialized
+0	23:51:57.422	ATR [DJI30],Weekly: initialized
+0	23:53:39.549	Admiral Candle Countdown [DJI30],Weekly: uninit reason 3
+0	23:53:39.549	trend-magic [DJI30],Weekly: uninit reason 3
+0	23:53:39.550	CMF_v1 [DJI30],Weekly: uninit reason 3
+0	23:53:39.550	ATR [DJI30],Weekly: uninit reason 3
+0	23:53:39.550	Admiral Candle Countdown [DJI30],H4: initialized
+0	23:53:39.550	trend-magic [DJI30],H4: initialized
+0	23:53:39.550	CMF_v1 [DJI30],H4: initialized
+0	23:53:39.551	ATR [DJI30],H4: initialized
+0	23:53:40.225	Admiral Candle Countdown [DJI30],H4: uninit reason 3
+0	23:53:40.225	trend-magic [DJI30],H4: uninit reason 3
+0	23:53:40.225	CMF_v1 [DJI30],H4: uninit reason 3
+0	23:53:40.225	ATR [DJI30],H4: uninit reason 3
+0	23:53:40.226	Admiral Candle Countdown [DJI30],Daily: initialized
+0	23:53:40.227	trend-magic [DJI30],Daily: initialized
+0	23:53:40.227	CMF_v1 [DJI30],Daily: initialized
+0	23:53:40.227	ATR [DJI30],Daily: initialized

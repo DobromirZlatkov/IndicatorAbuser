@@ -1,0 +1,156 @@
+0	20:27:31.859	trend-magic BTCUSD,H4: uninit reason 3
+0	20:27:31.860	ZigZag BTCUSD,H4: uninit reason 3
+0	20:27:31.860	CMF_v1 BTCUSD,H4: uninit reason 3
+0	20:27:31.860	Aroon_Up_Down BTCUSD,H4: uninit reason 3
+0	20:27:31.860	ATR BTCUSD,H4: uninit reason 3
+0	20:27:31.863	trend-magic BTCUSD,Daily: initialized
+0	20:27:31.864	ZigZag BTCUSD,Daily: initialized
+0	20:27:31.864	CMF_v1 BTCUSD,Daily: initialized
+0	20:27:31.864	Aroon_Up_Down BTCUSD,Daily: initialized
+0	20:27:31.865	ATR BTCUSD,Daily: initialized
+0	20:27:46.056	trend-magic BTCUSD,Daily: uninit reason 3
+0	20:27:46.056	ZigZag BTCUSD,Daily: uninit reason 3
+0	20:27:46.056	CMF_v1 BTCUSD,Daily: uninit reason 3
+0	20:27:46.056	Aroon_Up_Down BTCUSD,Daily: uninit reason 3
+0	20:27:46.056	ATR BTCUSD,Daily: uninit reason 3
+0	20:27:46.056	trend-magic BTCUSD,H4: initialized
+0	20:27:46.057	ZigZag BTCUSD,H4: initialized
+0	20:27:46.057	CMF_v1 BTCUSD,H4: initialized
+0	20:27:46.057	Aroon_Up_Down BTCUSD,H4: initialized
+0	20:27:46.058	ATR BTCUSD,H4: initialized
+0	20:27:47.712	trend-magic BTCUSD,H4: uninit reason 3
+0	20:27:47.712	ZigZag BTCUSD,H4: uninit reason 3
+0	20:27:47.712	CMF_v1 BTCUSD,H4: uninit reason 3
+0	20:27:47.712	Aroon_Up_Down BTCUSD,H4: uninit reason 3
+0	20:27:47.712	ATR BTCUSD,H4: uninit reason 3
+0	20:27:47.807	trend-magic BTCUSD,H1: initialized
+0	20:27:47.807	ZigZag BTCUSD,H1: initialized
+0	20:27:47.808	CMF_v1 BTCUSD,H1: initialized
+0	20:27:47.808	Aroon_Up_Down BTCUSD,H1: initialized
+0	20:27:47.808	ATR BTCUSD,H1: initialized
+0	20:28:08.567	trend-magic XRPUSD,H4: uninit reason 3
+0	20:28:08.568	CMF_v1 XRPUSD,H4: uninit reason 3
+0	20:28:08.568	Aroon_Up_Down XRPUSD,H4: uninit reason 3
+0	20:28:08.568	ATR XRPUSD,H4: uninit reason 3
+0	20:28:08.568	trend-magic XRPUSD,Daily: initialized
+0	20:28:08.568	CMF_v1 XRPUSD,Daily: initialized
+0	20:28:08.568	Aroon_Up_Down XRPUSD,Daily: initialized
+0	20:28:08.568	ATR XRPUSD,Daily: initialized
+0	20:28:09.613	trend-magic XRPUSD,Daily: uninit reason 3
+0	20:28:09.613	CMF_v1 XRPUSD,Daily: uninit reason 3
+0	20:28:09.613	Aroon_Up_Down XRPUSD,Daily: uninit reason 3
+0	20:28:09.613	ATR XRPUSD,Daily: uninit reason 3
+0	20:28:09.614	trend-magic XRPUSD,H4: initialized
+0	20:28:09.614	CMF_v1 XRPUSD,H4: initialized
+0	20:28:09.614	Aroon_Up_Down XRPUSD,H4: initialized
+0	20:28:09.614	ATR XRPUSD,H4: initialized
+0	22:34:17.615	trend-magic BTCUSD,H1: uninit reason 3
+0	22:34:17.615	ZigZag BTCUSD,H1: uninit reason 3
+0	22:34:17.615	CMF_v1 BTCUSD,H1: uninit reason 3
+0	22:34:17.615	Aroon_Up_Down BTCUSD,H1: uninit reason 3
+0	22:34:17.615	ATR BTCUSD,H1: uninit reason 3
+0	22:34:17.615	trend-magic BTCUSD,H4: initialized
+0	22:34:17.616	ZigZag BTCUSD,H4: initialized
+0	22:34:17.616	CMF_v1 BTCUSD,H4: initialized
+0	22:34:17.616	Aroon_Up_Down BTCUSD,H4: initialized
+0	22:34:17.616	ATR BTCUSD,H4: initialized
+0	22:34:53.566	trend-magic GOLD,H4: uninit reason 3
+0	22:34:53.566	ZigZag GOLD,H4: uninit reason 3
+0	22:34:53.566	CMF_v1 GOLD,H4: uninit reason 3
+0	22:34:53.566	Aroon_Up_Down GOLD,H4: uninit reason 3
+0	22:34:53.566	ATR GOLD,H4: uninit reason 3
+0	22:34:53.567	trend-magic GOLD,H1: initialized
+0	22:34:53.567	ZigZag GOLD,H1: initialized
+0	22:34:53.567	CMF_v1 GOLD,H1: initialized
+0	22:34:53.568	Aroon_Up_Down GOLD,H1: initialized
+0	22:34:53.568	ATR GOLD,H1: initialized
+0	22:35:00.620	trend-magic GOLD,H1: uninit reason 3
+0	22:35:00.620	ZigZag GOLD,H1: uninit reason 3
+0	22:35:00.620	CMF_v1 GOLD,H1: uninit reason 3
+0	22:35:00.620	Aroon_Up_Down GOLD,H1: uninit reason 3
+0	22:35:00.620	ATR GOLD,H1: uninit reason 3
+0	22:35:00.620	trend-magic GOLD,H4: initialized
+0	22:35:00.621	ZigZag GOLD,H4: initialized
+0	22:35:00.621	CMF_v1 GOLD,H4: initialized
+0	22:35:00.621	Aroon_Up_Down GOLD,H4: initialized
+0	22:35:00.621	ATR GOLD,H4: initialized
+0	22:35:02.033	trend-magic GOLD,H4: uninit reason 3
+0	22:35:02.033	ZigZag GOLD,H4: uninit reason 3
+0	22:35:02.033	CMF_v1 GOLD,H4: uninit reason 3
+0	22:35:02.033	Aroon_Up_Down GOLD,H4: uninit reason 3
+0	22:35:02.033	ATR GOLD,H4: uninit reason 3
+0	22:35:02.033	trend-magic GOLD,H1: initialized
+0	22:35:02.033	ZigZag GOLD,H1: initialized
+0	22:35:02.033	CMF_v1 GOLD,H1: initialized
+0	22:35:02.033	Aroon_Up_Down GOLD,H1: initialized
+0	22:35:02.033	ATR GOLD,H1: initialized
+0	22:35:05.577	trend-magic GOLD,H1: uninit reason 3
+0	22:35:05.577	ZigZag GOLD,H1: uninit reason 3
+0	22:35:05.577	CMF_v1 GOLD,H1: uninit reason 3
+0	22:35:05.577	Aroon_Up_Down GOLD,H1: uninit reason 3
+0	22:35:05.577	ATR GOLD,H1: uninit reason 3
+0	22:35:05.577	trend-magic GOLD,H4: initialized
+0	22:35:05.578	ZigZag GOLD,H4: initialized
+0	22:35:05.578	CMF_v1 GOLD,H4: initialized
+0	22:35:05.579	Aroon_Up_Down GOLD,H4: initialized
+0	22:35:05.579	ATR GOLD,H4: initialized
+0	22:35:23.035	trend-magic GOLD,H4: uninit reason 3
+0	22:35:23.035	ZigZag GOLD,H4: uninit reason 3
+0	22:35:23.035	CMF_v1 GOLD,H4: uninit reason 3
+0	22:35:23.035	Aroon_Up_Down GOLD,H4: uninit reason 3
+0	22:35:23.035	ATR GOLD,H4: uninit reason 3
+0	22:35:23.036	trend-magic GOLD,H1: initialized
+0	22:35:23.037	ZigZag GOLD,H1: initialized
+0	22:35:23.037	CMF_v1 GOLD,H1: initialized
+0	22:35:23.037	Aroon_Up_Down GOLD,H1: initialized
+0	22:35:23.038	ATR GOLD,H1: initialized
+0	22:35:26.066	trend-magic GOLD,H1: uninit reason 3
+0	22:35:26.066	ZigZag GOLD,H1: uninit reason 3
+0	22:35:26.066	CMF_v1 GOLD,H1: uninit reason 3
+0	22:35:26.066	Aroon_Up_Down GOLD,H1: uninit reason 3
+0	22:35:26.066	ATR GOLD,H1: uninit reason 3
+0	22:35:26.066	trend-magic GOLD,H4: initialized
+0	22:35:26.067	ZigZag GOLD,H4: initialized
+0	22:35:26.067	CMF_v1 GOLD,H4: initialized
+0	22:35:26.068	Aroon_Up_Down GOLD,H4: initialized
+0	22:35:26.068	ATR GOLD,H4: initialized
+0	22:36:08.565	trend-magic [DJI30],H1: uninit reason 3
+0	22:36:08.565	CMF_v1 [DJI30],H1: uninit reason 3
+0	22:36:08.565	Aroon_Up_Down [DJI30],H1: uninit reason 3
+0	22:36:08.565	ATR [DJI30],H1: uninit reason 3
+0	22:36:08.773	trend-magic [DJI30],H4: initialized
+0	22:36:08.773	CMF_v1 [DJI30],H4: initialized
+0	22:36:08.774	Aroon_Up_Down [DJI30],H4: initialized
+0	22:36:08.774	ATR [DJI30],H4: initialized
+0	22:36:14.737	trend-magic [DJI30],H4: uninit reason 3
+0	22:36:14.737	CMF_v1 [DJI30],H4: uninit reason 3
+0	22:36:14.737	Aroon_Up_Down [DJI30],H4: uninit reason 3
+0	22:36:14.737	ATR [DJI30],H4: uninit reason 3
+0	22:36:14.737	trend-magic [DJI30],H1: initialized
+0	22:36:14.738	CMF_v1 [DJI30],H1: initialized
+0	22:36:14.738	Aroon_Up_Down [DJI30],H1: initialized
+0	22:36:14.738	ATR [DJI30],H1: initialized
+0	22:36:49.788	trend-magic [DJI30],H1: uninit reason 3
+0	22:36:49.788	CMF_v1 [DJI30],H1: uninit reason 3
+0	22:36:49.788	Aroon_Up_Down [DJI30],H1: uninit reason 3
+0	22:36:49.788	ATR [DJI30],H1: uninit reason 3
+0	22:36:49.789	trend-magic [DJI30],H4: initialized
+0	22:36:49.789	CMF_v1 [DJI30],H4: initialized
+0	22:36:49.789	Aroon_Up_Down [DJI30],H4: initialized
+0	22:36:49.789	ATR [DJI30],H4: initialized
+0	22:36:51.084	trend-magic [DJI30],H4: uninit reason 3
+0	22:36:51.084	CMF_v1 [DJI30],H4: uninit reason 3
+0	22:36:51.084	Aroon_Up_Down [DJI30],H4: uninit reason 3
+0	22:36:51.084	ATR [DJI30],H4: uninit reason 3
+0	22:36:51.084	trend-magic [DJI30],H1: initialized
+0	22:36:51.085	CMF_v1 [DJI30],H1: initialized
+0	22:36:51.085	Aroon_Up_Down [DJI30],H1: initialized
+0	22:36:51.085	ATR [DJI30],H1: initialized
+0	22:37:23.793	trend-magic [DJI30],H1: uninit reason 3
+0	22:37:23.793	CMF_v1 [DJI30],H1: uninit reason 3
+0	22:37:23.793	Aroon_Up_Down [DJI30],H1: uninit reason 3
+0	22:37:23.793	ATR [DJI30],H1: uninit reason 3
+0	22:37:23.794	trend-magic [DJI30],H4: initialized
+0	22:37:23.794	CMF_v1 [DJI30],H4: initialized
+0	22:37:23.795	Aroon_Up_Down [DJI30],H4: initialized
+0	22:37:23.795	ATR [DJI30],H4: initialized

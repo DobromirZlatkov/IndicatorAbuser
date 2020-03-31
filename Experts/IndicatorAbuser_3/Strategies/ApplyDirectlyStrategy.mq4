@@ -6,6 +6,7 @@
 
 #include "../Indicators/Enums.mq4";
 #include "../Indicators/ISignalIndicator.mq4";
+#include "../ExtraOrderLogics/IOrderLogic.mq4";
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
@@ -14,17 +15,26 @@ class ApplyDirectlyStrategy : public IStrategy
 private:
    ISignalIndicator* base_line;
    ISignalIndicator* exit_indicator;
+   
    ISignalIndicator* confirm_indicator1;
    ISignalIndicator* confirm_indicator2;
+   
+   IOrderLogic* order_logic;
 
 public:
                      ApplyDirectlyStrategy() {}
-                     ApplyDirectlyStrategy(ISignalIndicator* base_line, ISignalIndicator* exit_indicator, ISignalIndicator* confirm_indicator1, ISignalIndicator* confirm_indicator2)
+                     ApplyDirectlyStrategy(
+                        ISignalIndicator* base_line,
+                        ISignalIndicator* exit_indicator,
+                        ISignalIndicator* confirm_indicator1,
+                        ISignalIndicator* confirm_indicator2,
+                        IOrderLogic* orderLogic)
      {
       this.base_line = base_line;
       this.exit_indicator = exit_indicator;
       this.confirm_indicator1 = confirm_indicator1;
       this.confirm_indicator2 = confirm_indicator2;
+      this.order_logic = orderLogic;
      }
 
    void              Execute();
@@ -48,6 +58,8 @@ bool ApplyDirectlyStrategy::IsNewCandle()
 //+------------------------------------------------------------------+
 void ApplyDirectlyStrategy::Execute()
   {
+   this.order_logic.Execute();
+  
    double base_line_signal = this.base_line.GetSignal();
    double should_exit = this.exit_indicator.GetSignal();
 

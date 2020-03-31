@@ -888,3 +888,165 @@
 0	20:32:56.936	Custom indicator CMF_v1 BRENT,H1: loaded successfully
 0	20:32:56.976	Custom indicator Aroon_Up_Down BRENT,H1: loaded successfully
 0	20:32:57.014	Custom indicator ATR BRENT,H1: loaded successfully
+0	20:32:57.069	trend-magic BRENT,H1: initialized
+0	20:32:57.119	CMF_v1 BRENT,H1: initialized
+0	20:32:57.169	Aroon_Up_Down BRENT,H1: initialized
+0	20:32:57.222	ATR BRENT,H1: initialized
+0	22:10:14.422	Admiral Candle Countdown EURUSD,Daily: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown EURUSD,H4: uninit reason 9
+0	22:10:14.422	ATR EURUSD,H4: uninit reason 9
+0	22:10:14.422	ssl-channel-chart-alert-indicator EURUSD,Daily: uninit reason 9
+0	22:10:14.422	trend-magic EURUSD,Daily: uninit reason 9
+0	22:10:14.422	CMF_v1 EURUSD,Daily: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown EURUSD,H1: uninit reason 9
+0	22:10:14.422	trend-magic GBPUSD,H1: uninit reason 9
+0	22:10:14.422	ATR GBPUSD,H1: uninit reason 9
+0	22:10:14.422	CMF_v1 GBPUSD,H1: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown GBPUSD,H1: uninit reason 9
+0	22:10:14.422	trend-magic GBPUSD,H1: uninit reason 9
+0	22:10:14.422	CMF_v1 GBPUSD,H1: uninit reason 9
+0	22:10:14.422	ATR GBPUSD,H1: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown EURGBP,Daily: uninit reason 9
+0	22:10:14.422	ssl-channel-chart-alert-indicator EURGBP,Daily: uninit reason 9
+0	22:10:14.422	CMF_v1 EURGBP,Daily: uninit reason 9
+0	22:10:14.422	ATR EURGBP,Daily: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown LTCUSD,Daily: uninit reason 9
+0	22:10:14.422	trend-magic LTCUSD,Daily: uninit reason 9
+0	22:10:14.422	CMF_v1 LTCUSD,Daily: uninit reason 9
+0	22:10:14.422	trend-magic XRPUSD,H4: uninit reason 9
+0	22:10:14.422	CMF_v1 XRPUSD,H4: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown BTCUSD,Weekly: uninit reason 9
+0	22:10:14.422	ZigZag BTCUSD,Weekly: uninit reason 9
+0	22:10:14.422	trend-magic BTCUSD,Weekly: uninit reason 9
+0	22:10:14.422	Admiral Candle Countdown BCHUSD,Daily: uninit reason 9
+0	22:10:14.422	trend-magic BCHUSD,Daily: uninit reason 9
+0	22:10:14.422	CMF_v1 BCHUSD,Daily: uninit reason 9
+0	22:10:14.422	ATR BCHUSD,Daily: uninit reason 9
+0	22:10:14.422	trend-magic XRPUSD,H4: uninit reason 9
+0	22:10:14.422	CMF_v1 XRPUSD,H4: uninit reason 9
+0	22:10:14.422	Aroon_Up_Down XRPUSD,H4: uninit reason 9
+0	22:10:14.422	ATR XRPUSD,H4: uninit reason 9
+0	22:10:14.422	ZigZag ETHUSD,H1: uninit reason 9
+0	22:10:14.422	ATR ETHUSD,H1: uninit reason 9
+0	22:10:14.423	ZigZag BTCUSD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 BTCUSD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 LTCUSD,Daily: uninit reason 9
+0	22:10:14.423	Admiral Candle Countdown XRPUSD,Daily: uninit reason 9
+0	22:10:14.423	ATR XRPUSD,Daily: uninit reason 9
+0	22:10:14.423	trend-magic GBPCHF,Daily: uninit reason 9
+0	22:10:14.423	CMF_v1 GBPCHF,Daily: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down GBPCHF,Daily: uninit reason 9
+0	22:10:14.423	ATR GBPCHF,Daily: uninit reason 9
+0	22:10:14.423	trend-magic AUDNZD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 AUDNZD,H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down AUDNZD,H4: uninit reason 9
+0	22:10:14.423	ATR AUDNZD,H4: uninit reason 9
+0	22:10:14.423	trend-magic GOLD,H4: uninit reason 9
+0	22:10:14.423	ZigZag GOLD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 GOLD,H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down GOLD,H4: uninit reason 9
+0	22:10:14.423	ATR GOLD,H4: uninit reason 9
+0	22:10:14.423	trend-magic USDCAD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 USDCAD,H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down USDCAD,H4: uninit reason 9
+0	22:10:14.423	ATR USDCAD,H4: uninit reason 9
+0	22:10:14.423	Rex USDCAD,H4: uninit reason 9
+0	22:10:14.423	trend-magic EURGBP,H1: uninit reason 9
+0	22:10:14.423	CMF_v1 EURGBP,H1: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down EURGBP,H1: uninit reason 9
+0	22:10:14.423	ATR EURGBP,H1: uninit reason 9
+0	22:10:14.423	trend-magic [DJI30],H4: uninit reason 9
+0	22:10:14.423	CMF_v1 [DJI30],H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down [DJI30],H4: uninit reason 9
+0	22:10:14.423	ATR [DJI30],H4: uninit reason 9
+0	22:10:14.423	trend-magic BTCUSD,H4: uninit reason 9
+0	22:10:14.423	ZigZag BTCUSD,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 BTCUSD,H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down BTCUSD,H4: uninit reason 9
+0	22:10:14.423	ATR BTCUSD,H4: uninit reason 9
+0	22:10:14.423	trend-magic EURGBP,H4: uninit reason 9
+0	22:10:14.423	CMF_v1 EURGBP,H4: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down EURGBP,H4: uninit reason 9
+0	22:10:14.423	trend-magic BRENT,H1: uninit reason 9
+0	22:10:14.423	CMF_v1 BRENT,H1: uninit reason 9
+0	22:10:14.423	Aroon_Up_Down BRENT,H1: uninit reason 9
+0	22:10:14.423	ATR BRENT,H1: uninit reason 9
+0	22:10:14.904	Custom indicator Admiral Candle Countdown EURUSD,Daily: removed
+0	22:10:14.950	Custom indicator Admiral Candle Countdown EURUSD,H4: removed
+0	22:10:14.960	Custom indicator ATR EURUSD,H4: removed
+0	22:10:14.977	Custom indicator ssl-channel-chart-alert-indicator EURUSD,Daily: removed
+0	22:10:14.990	Custom indicator trend-magic EURUSD,Daily: removed
+0	22:10:14.998	Custom indicator CMF_v1 EURUSD,Daily: removed
+0	22:10:15.009	Custom indicator Admiral Candle Countdown EURUSD,H1: removed
+0	22:10:15.022	Custom indicator trend-magic GBPUSD,H1: removed
+0	22:10:15.029	Custom indicator ATR GBPUSD,H1: removed
+0	22:10:15.036	Custom indicator CMF_v1 GBPUSD,H1: removed
+0	22:10:15.046	Custom indicator Admiral Candle Countdown GBPUSD,H1: removed
+0	22:10:15.052	Custom indicator trend-magic GBPUSD,H1: removed
+0	22:10:15.059	Custom indicator CMF_v1 GBPUSD,H1: removed
+0	22:10:15.065	Custom indicator ATR GBPUSD,H1: removed
+0	22:10:15.075	Custom indicator Admiral Candle Countdown EURGBP,Daily: removed
+0	22:10:15.082	Custom indicator ssl-channel-chart-alert-indicator EURGBP,Daily: removed
+0	22:10:15.088	Custom indicator CMF_v1 EURGBP,Daily: removed
+0	22:10:15.093	Custom indicator ATR EURGBP,Daily: removed
+0	22:10:15.103	Custom indicator Admiral Candle Countdown LTCUSD,Daily: removed
+0	22:10:15.110	Custom indicator trend-magic LTCUSD,Daily: removed
+0	22:10:15.116	Custom indicator CMF_v1 LTCUSD,Daily: removed
+0	22:10:15.129	Custom indicator trend-magic XRPUSD,H4: removed
+0	22:10:15.135	Custom indicator CMF_v1 XRPUSD,H4: removed
+0	22:10:15.144	Custom indicator Admiral Candle Countdown BTCUSD,Weekly: removed
+0	22:10:15.151	Custom indicator ZigZag BTCUSD,Weekly: removed
+0	22:10:15.157	Custom indicator trend-magic BTCUSD,Weekly: removed
+0	22:10:15.166	Custom indicator Admiral Candle Countdown BCHUSD,Daily: removed
+0	22:10:15.172	Custom indicator trend-magic BCHUSD,Daily: removed
+0	22:10:15.178	Custom indicator CMF_v1 BCHUSD,Daily: removed
+0	22:10:15.184	Custom indicator ATR BCHUSD,Daily: removed
+0	22:10:15.198	Custom indicator trend-magic XRPUSD,H4: removed
+0	22:10:15.205	Custom indicator CMF_v1 XRPUSD,H4: removed
+0	22:10:15.212	Custom indicator Aroon_Up_Down XRPUSD,H4: removed
+0	22:10:15.219	Custom indicator ATR XRPUSD,H4: removed
+0	22:10:15.228	Custom indicator ZigZag ETHUSD,H1: removed
+0	22:10:15.235	Custom indicator ATR ETHUSD,H1: removed
+0	22:10:15.244	Custom indicator ZigZag BTCUSD,H4: removed
+0	22:10:15.250	Custom indicator CMF_v1 BTCUSD,H4: removed
+0	22:10:15.257	Custom indicator CMF_v1 LTCUSD,Daily: removed
+0	22:10:15.267	Custom indicator Admiral Candle Countdown XRPUSD,Daily: removed
+0	22:10:15.273	Custom indicator ATR XRPUSD,Daily: removed
+0	22:10:15.281	Custom indicator trend-magic GBPCHF,Daily: removed
+0	22:10:15.289	Custom indicator CMF_v1 GBPCHF,Daily: removed
+0	22:10:15.295	Custom indicator Aroon_Up_Down GBPCHF,Daily: removed
+0	22:10:15.301	Custom indicator ATR GBPCHF,Daily: removed
+0	22:10:15.310	Custom indicator trend-magic AUDNZD,H4: removed
+0	22:10:15.316	Custom indicator CMF_v1 AUDNZD,H4: removed
+0	22:10:15.322	Custom indicator Aroon_Up_Down AUDNZD,H4: removed
+0	22:10:15.329	Custom indicator ATR AUDNZD,H4: removed
+0	22:10:15.340	Custom indicator trend-magic GOLD,H4: removed
+0	22:10:15.346	Custom indicator ZigZag GOLD,H4: removed
+0	22:10:15.351	Custom indicator CMF_v1 GOLD,H4: removed
+0	22:10:15.358	Custom indicator Aroon_Up_Down GOLD,H4: removed
+0	22:10:15.363	Custom indicator ATR GOLD,H4: removed
+0	22:10:15.372	Custom indicator trend-magic USDCAD,H4: removed
+0	22:10:15.378	Custom indicator CMF_v1 USDCAD,H4: removed
+0	22:10:15.385	Custom indicator Aroon_Up_Down USDCAD,H4: removed
+0	22:10:15.392	Custom indicator ATR USDCAD,H4: removed
+0	22:10:15.399	Custom indicator Rex USDCAD,H4: removed
+0	22:10:15.418	Custom indicator trend-magic EURGBP,H1: removed
+0	22:10:15.423	Custom indicator CMF_v1 EURGBP,H1: removed
+0	22:10:15.430	Custom indicator Aroon_Up_Down EURGBP,H1: removed
+0	22:10:15.436	Custom indicator ATR EURGBP,H1: removed
+0	22:10:15.445	Custom indicator trend-magic [DJI30],H4: removed
+0	22:10:15.451	Custom indicator CMF_v1 [DJI30],H4: removed
+0	22:10:15.458	Custom indicator Aroon_Up_Down [DJI30],H4: removed
+0	22:10:15.464	Custom indicator ATR [DJI30],H4: removed
+0	22:10:15.476	Custom indicator trend-magic BTCUSD,H4: removed
+0	22:10:15.483	Custom indicator ZigZag BTCUSD,H4: removed
+0	22:10:15.489	Custom indicator CMF_v1 BTCUSD,H4: removed
+0	22:10:15.495	Custom indicator Aroon_Up_Down BTCUSD,H4: removed
+0	22:10:15.502	Custom indicator ATR BTCUSD,H4: removed
+0	22:10:15.510	Custom indicator trend-magic EURGBP,H4: removed
+0	22:10:15.515	Custom indicator CMF_v1 EURGBP,H4: removed
+0	22:10:15.522	Custom indicator Aroon_Up_Down EURGBP,H4: removed
+0	22:10:15.530	Custom indicator trend-magic BRENT,H1: removed
+0	22:10:15.537	Custom indicator CMF_v1 BRENT,H1: removed
+0	22:10:15.544	Custom indicator Aroon_Up_Down BRENT,H1: removed
+0	22:10:15.550	Custom indicator ATR BRENT,H1: removed

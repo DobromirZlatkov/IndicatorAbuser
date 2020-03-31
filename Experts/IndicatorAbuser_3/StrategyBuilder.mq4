@@ -30,8 +30,9 @@ enum CONFIRMATION_TYPES
   
 enum EXTRA_ORDER_LOGICS
   {
-   PARTIAL_CLOSE_ON_PIPS = 0
-  }  
+   NONE = 0,
+   PARTIAL_CLOSE_ON_PIPS = 1
+  };
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
@@ -57,6 +58,10 @@ private:
    
    CONFIRMATION_TYPES confirm_signal_2;
    int                cmf_confirm_period;
+   
+   EXTRA_ORDER_LOGICS extra_order_logic;
+   double             extra_order_logic_price_diff;
+   double             extra_order_logic_lot_to_close;
 
 public:
                      StrategyBuilder() {};
@@ -80,7 +85,11 @@ public:
       int                rsi_confirm_period,
       
       CONFIRMATION_TYPES confirm_signal_2,
-      int                cmf_confirm_period
+      int                cmf_confirm_period,
+      
+      EXTRA_ORDER_LOGICS extra_order_logic,
+      double             extra_order_logic_price_diff,
+      double             extra_order_logic_lot_to_close
 
    )
      {
@@ -103,6 +112,10 @@ public:
       
       this.confirm_signal_2 = confirm_signal_2;
       this.cmf_confirm_period = cmf_confirm_period;
+      
+      this.extra_order_logic = extra_order_logic;
+      this.extra_order_logic_price_diff = extra_order_logic_price_diff;
+      this.extra_order_logic_lot_to_close = extra_order_logic_lot_to_close;
      }
 
    IStrategy*        Build();
@@ -165,10 +178,25 @@ IStrategy* StrategyBuilder::Build()
      {
       Print("StrategyBuilder CONFIRMATION_2_TYPES is invalid");
      }
+     
+   IOrderLogic* order_logic;
+   
+   if(this.extra_order_logic == NONE)
+     {
+      order_logic = new None();
+     }  
+   else if(this.extra_order_logic == PARTIAL_CLOSE_ON_PIPS)
+     {
+      order_logic = new PartialCloseOnPips(this.extra_order_logic_lot_to_close, this.extra_order_logic_price_diff);
+     }
+   else
+     {
+      Print("StrategyBuilder EXTRA_ORDER_LOGICS is invalid");
+     }
 
    if(this.m_strategy == APPLY_DIRECTLY_STRATEGY)
      {
-      return new ApplyDirectlyStrategy(base_line, exit_indicator, confirm_indicator_1, confirm_indicator_23);
+      return new ApplyDirectlyStrategy(base_line, exit_indicator, confirm_indicator_1, confirm_indicator_23, order_logic);
      }
    else
      {

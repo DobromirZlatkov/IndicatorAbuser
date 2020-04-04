@@ -19,6 +19,7 @@ public:
 
    void            Execute();
   };
+  
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
@@ -33,11 +34,48 @@ void PartialCloseOnPips::Execute(void)
         {
          if(OrderType() == OP_BUY)
            {
-            double profit = OrderProfit();
-            printf(profit);
-            if(profit >= this.pips && this.modified != OrderTicket())
+            double priceDiff = Bid - OrderOpenPrice();
+            
+            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
               {
-               OrderClose(OrderTicket(), lots_to_close, Bid, clrBlueViolet);
+               OrderClose(OrderTicket(), lots_to_close, Bid, 0, clrBlueViolet);
+              
+               if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+                 {
+                  OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                  this.modified = OrderTicket();
+                 }
+              }
+           }
+
+         if(OrderType() == OP_SELL)
+           {
+            double priceDiff = OrderOpenPrice() - Ask;
+            
+            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
+              {
+               OrderClose(OrderTicket(), lots_to_close, Ask, 0, clrBlueViolet);
+               
+                if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+                 {
+                   OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                   this.modified = OrderTicket();
+                 }
+              }
+           }
+        }
+     }
+     
+     for(int i=0; i<OrdersTotal(); i++)
+     {
+      if(OrderSelect(i, SELECT_BY_POS))
+        {
+         if(OrderType() == OP_BUY)
+           {
+            double priceDiff = Bid - OrderOpenPrice();
+            
+            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
+              {
                OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
                
                this.modified = OrderTicket();
@@ -46,13 +84,10 @@ void PartialCloseOnPips::Execute(void)
 
          if(OrderType() == OP_SELL)
            {
-            double profit = OrderProfit();
+            double priceDiff = OrderOpenPrice() - Ask;
             
-            printf(profit);
-            
-            if(profit >= this.pips && this.modified != OrderTicket())
+            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
               {
-               OrderClose(OrderTicket(), lots_to_close, Ask, clrBlueViolet);
                OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
                
                this.modified = OrderTicket();

@@ -29,8 +29,8 @@ private:
 public:
                      ApplyDirectlyStrategy() {}
                      ApplyDirectlyStrategy(
-                        ISignalIndicator* base_line,
-                        ISignalIndicator* exit_indicator,
+                        ISignalIndicator* base_line_input,
+                        ISignalIndicator* exit_indicator_input,
                         ISignalIndicator* confirm_indicators_input[],
                         //ISignalIndicator* confirm_indicator1,
                         //ISignalIndicator* confirm_indicator2,
@@ -38,8 +38,8 @@ public:
                         int dont_trade_after_input,
                         int dont_trade_before_input)
      {
-      this.base_line = base_line;
-      this.exit_indicator = exit_indicator;
+      this.base_line = base_line_input;
+      this.exit_indicator = exit_indicator_input;
       //this.confirm_indicator1 = confirm_indicator1;
       //this.confirm_indicator2 = confirm_indicator2;
       
@@ -53,6 +53,7 @@ public:
    void              Execute();
    void              CloseOrders(int type);
    bool              IsNewCandle();
+   double            CalculateLot();
   };
 
 //+------------------------------------------------------------------+
@@ -65,6 +66,29 @@ bool ApplyDirectlyStrategy::IsNewCandle()
       return(false);
    BarsOnChart=Bars;
    return(true);
+  }
+  
+//+------------------------------------------------------------------+
+//|                                                                  |
+//+------------------------------------------------------------------+
+double ApplyDirectlyStrategy::CalculateLot()
+  {
+   double lot_size = 0.48;
+   for(int i = OrdersHistoryTotal() - 1; i > 0; i--)
+     {
+      if(OrderSelect(i, SELECT_BY_POS,MODE_HISTORY))
+        {
+         if(OrderProfit() > 0)
+           {
+             return lot_size;
+           }
+         
+           lot_size += OrderLots() * 2;
+        }
+     }
+     
+    
+    return lot_size;  
   }
 //+------------------------------------------------------------------+
 //|                                                                  |
@@ -115,10 +139,9 @@ void ApplyDirectlyStrategy::Execute()
          all_sell = false;
         }  
     }  
+    
+   double lots_size = this.CalculateLot(); 
       
-  // double confirm_indicator1_signal = this.confirm_indicator1.GetSignal(0); 
-   //double confirm_indicator2_signal = this.confirm_indicator2.GetSignal(0); 
-
    if(base_line_signal == BUY && all_buy)
      {
       if(OrdersTotal() > 0)
@@ -126,7 +149,7 @@ void ApplyDirectlyStrategy::Execute()
          return;
         }
 
-      OrderSend(Symbol(), OP_BUY, 0.02, Ask, 0, 0, 0, NULL, 1233214);
+      OrderSend(Symbol(), OP_BUY, lots_size, Ask, 0, 0, 0, NULL, 1233214);
      }
 
    if(base_line_signal == SELL && all_sell)
@@ -136,7 +159,7 @@ void ApplyDirectlyStrategy::Execute()
          return;
         }
 
-      OrderSend(Symbol(), OP_SELL, 0.02, Bid, 0, 0, 0, NULL, 1233214);
+      OrderSend(Symbol(), OP_SELL, lots_size, Bid, 0, 0, 0, NULL, 1233214);
      }
   }
 

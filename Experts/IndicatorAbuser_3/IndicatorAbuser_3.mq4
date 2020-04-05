@@ -38,7 +38,7 @@ extern int DONT_TRADE_BEFORE = 8;
 
 input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC = PARTIAL_CLOSE_ON_PIPS;
 extern double PRICE_DIFF = 0.03;
-extern double LOT_TO_CLOSE = 0.01;
+extern double LOT_TO_CLOSE = 2;
 
 input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC_2 = ATR_STOP_LOSS;
 extern double ATR_STOP_LOSS_PERIOD = 14;
@@ -47,6 +47,8 @@ extern double ATR_STOP_LOSS_EMPLIFIER = 1.5;
 input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC_3 = ADX_EXIT;
 extern double ADX_CLOSE_ABOVE = 58;
 extern double ADX_TOP_ABOVE = 40;
+
+input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC_4 = EXIT_ON_ALL_CONFIRM;
 
 
 IStrategy* strategy;
@@ -98,7 +100,8 @@ int OnInit()
       ATR_STOP_LOSS_EMPLIFIER,
       EXTRA_ORDER_LOGIC_3,
       ADX_CLOSE_ABOVE,
-      ADX_TOP_ABOVE
+      ADX_TOP_ABOVE,
+      EXTRA_ORDER_LOGIC_4
       
       );
 

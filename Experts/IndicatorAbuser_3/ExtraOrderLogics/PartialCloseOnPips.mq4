@@ -32,6 +32,8 @@ void PartialCloseOnPips::Execute(void)
      {
       if(OrderSelect(i, SELECT_BY_POS))
         {
+         double lots_to_close = NormalizeDouble(OrderLots() / this.lots_to_close, 3);
+         
          if(OrderType() == OP_BUY)
            {
             double priceDiff = Bid - OrderOpenPrice();

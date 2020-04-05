@@ -35,7 +35,8 @@ enum EXTRA_ORDER_LOGICS
    NONE = 0,
    PARTIAL_CLOSE_ON_PIPS = 1,
    ATR_STOP_LOSS = 2,
-   ADX_EXIT = 3
+   ADX_EXIT = 3,
+   EXIT_ON_ALL_CONFIRM = 4
   };
 //+------------------------------------------------------------------+
 //|                                                                  |
@@ -80,6 +81,8 @@ private:
    EXTRA_ORDER_LOGICS extra_order_logic_3;
    double adx_close_above;
    double adx_top_above;
+   
+   EXTRA_ORDER_LOGICS extra_order_logic_4;
 
 public:
                      StrategyBuilder() {};
@@ -121,7 +124,9 @@ public:
       
       EXTRA_ORDER_LOGICS extra_order_logic_3_input,
       double adx_close_above_input,
-      double adx_top_above_input
+      double adx_top_above_input,
+      
+      EXTRA_ORDER_LOGICS extra_order_logic_4_input
 
    )
      {
@@ -162,6 +167,8 @@ public:
       this.extra_order_logic_3 = extra_order_logic_3_input;
       this.adx_close_above = adx_close_above_input;
       this.adx_top_above = adx_top_above_input;
+      
+      this.extra_order_logic_4 = extra_order_logic_4_input;
      }
 
    IStrategy*        Build();
@@ -232,7 +239,7 @@ IStrategy* StrategyBuilder::Build()
       Print("StrategyBuilder CONFIRMATION_2_TYPES is invalid");
      }
      
-   IOrderLogic* order_logics[3];
+   IOrderLogic* order_logics[4];
    
    if(this.extra_order_logic == NONE)
      {
@@ -271,7 +278,24 @@ IStrategy* StrategyBuilder::Build()
    else
      {
       Print("StrategyBuilder extra_order_logic_3 is invalid");
+     }
+     
+   if(this.extra_order_logic_4 == NONE)
+     {
+      order_logics[3] = new None();
+     }
+   else if(this.extra_order_logic_4 == EXIT_ON_ALL_CONFIRM)
+     {
+      ISignalIndicator* exit_confirm_indicators[3];
+      exit_confirm_indicators[0] = confirm_indicators[0];
+      exit_confirm_indicators[1] = confirm_indicators[1];
+      exit_confirm_indicators[2] = new MACandleCloseInDirection(m_base_line_types, m_base_line_applied_price, m_base_line_period, m_base_line_shif, 1);
+      order_logics[3] = new ExitOnAllIndicatorsConfirm(exit_confirm_indicators); //new ADXClose(this.adx_close_above, this.adx_top_above);
      }  
+   else
+     {
+      Print("StrategyBuilder extra_order_logic_4 is invalid");
+     }    
 
    if(this.m_strategy == APPLY_DIRECTLY_STRATEGY)
      {

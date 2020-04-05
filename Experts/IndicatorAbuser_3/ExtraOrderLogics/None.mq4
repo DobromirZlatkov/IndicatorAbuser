@@ -18,6 +18,6 @@ public:
 //+------------------------------------------------------------------+
 void None::Execute(void)
   {
-   Print("None test");
+   //Print("None test");
   }
 

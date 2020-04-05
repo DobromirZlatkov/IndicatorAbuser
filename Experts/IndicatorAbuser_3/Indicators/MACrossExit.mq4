@@ -25,25 +25,25 @@ public:
       m_shift = back_shift;
      }
 
-   double            GetValue();
-   SIGNAL_TYPE       GetSignal();
+   double            GetValue(double shift);
+   SIGNAL_TYPE       GetSignal(double shift);
   };
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
-double MACrossExit::GetValue(void)
+double MACrossExit::GetValue(double shift)
   {
    double val = iMA(Symbol(), Period(), this.ma_period, this.ma_shift, this.ma_type, this.ma_applied_price, this.m_shift);
    return NormalizeDouble(val, 3);
   }
 //+------------------------------------------------------------------+
-SIGNAL_TYPE MACrossExit::GetSignal(void)
+SIGNAL_TYPE MACrossExit::GetSignal(double shift)
   {
    double close_price = NormalizeDouble(iClose(Symbol(), Period(), 1), 3);
    double open_price = NormalizeDouble(iOpen(Symbol(), Period(), 1), 3);
-   double base_line = this.GetValue();
+   double base_line = this.GetValue(shift);
    
    if(close_price > base_line && open_price < base_line)
      {

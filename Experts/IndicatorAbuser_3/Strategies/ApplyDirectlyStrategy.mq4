@@ -16,25 +16,38 @@ private:
    ISignalIndicator* base_line;
    ISignalIndicator* exit_indicator;
    
-   ISignalIndicator* confirm_indicator1;
-   ISignalIndicator* confirm_indicator2;
+   ISignalIndicator* confirm_indicators[];
    
-   IOrderLogic* order_logic;
+   //ISignalIndicator* confirm_indicator1;
+   //ISignalIndicator* confirm_indicator2;
+   
+   IOrderLogic*      order_logics[];
+   
+   int               dont_trade_after;
+   int               dont_trade_before;       
 
 public:
                      ApplyDirectlyStrategy() {}
                      ApplyDirectlyStrategy(
                         ISignalIndicator* base_line,
                         ISignalIndicator* exit_indicator,
-                        ISignalIndicator* confirm_indicator1,
-                        ISignalIndicator* confirm_indicator2,
-                        IOrderLogic* orderLogic)
+                        ISignalIndicator* confirm_indicators_input[],
+                        //ISignalIndicator* confirm_indicator1,
+                        //ISignalIndicator* confirm_indicator2,
+                        IOrderLogic* orderLogics[],
+                        int dont_trade_after_input,
+                        int dont_trade_before_input)
      {
       this.base_line = base_line;
       this.exit_indicator = exit_indicator;
-      this.confirm_indicator1 = confirm_indicator1;
-      this.confirm_indicator2 = confirm_indicator2;
-      this.order_logic = orderLogic;
+      //this.confirm_indicator1 = confirm_indicator1;
+      //this.confirm_indicator2 = confirm_indicator2;
+      
+      this.dont_trade_after = dont_trade_after_input;
+      this.dont_trade_before = dont_trade_before_input;
+      
+      ArrayCopy(this.confirm_indicators, confirm_indicators_input);
+      ArrayCopy(this.order_logics, orderLogics);
      }
 
    void              Execute();
@@ -58,15 +71,23 @@ bool ApplyDirectlyStrategy::IsNewCandle()
 //+------------------------------------------------------------------+
 void ApplyDirectlyStrategy::Execute()
   {
-   this.order_logic.Execute();
+   for (int i = 0; i <= ArraySize(this.order_logics) - 1; i++)
+    {
+       this.order_logics[i].Execute();
+    }
   
-   double base_line_signal = this.base_line.GetSignal();
-   double should_exit = this.exit_indicator.GetSignal();
+   double base_line_signal = this.base_line.GetSignal(0);
+   double should_exit = this.exit_indicator.GetSignal(0);
 
    if(!this.IsNewCandle())
      {
       return;
      }
+     
+   if(Hour() > this.dont_trade_after || Hour() < this.dont_trade_before)
+     {
+      return;
+     }  
 
    if(should_exit == BUY)
      {
@@ -77,10 +98,28 @@ void ApplyDirectlyStrategy::Execute()
       CloseOrders(OP_SELL);
      }
      
-   double confirm_indicator1_signal = this.confirm_indicator1.GetSignal(); 
-   double confirm_indicator2_signal = this.confirm_indicator2.GetSignal(); 
+   bool all_buy = true;
+   bool all_sell = true;
+     
+   for (int i = 0; i <= ArraySize(this.confirm_indicators) - 1; i++)
+    {
+      double signal = this.confirm_indicators[i].GetSignal(0);
+      
+      if(signal == SELL || signal == NO_SIGNAL)
+        {
+         all_buy = false;
+        }
+        
+      if(signal == BUY || signal == NO_SIGNAL)
+        {
+         all_sell = false;
+        }  
+    }  
+      
+  // double confirm_indicator1_signal = this.confirm_indicator1.GetSignal(0); 
+   //double confirm_indicator2_signal = this.confirm_indicator2.GetSignal(0); 
 
-   if(base_line_signal == BUY && confirm_indicator1_signal == BUY && confirm_indicator2_signal == BUY)
+   if(base_line_signal == BUY && all_buy)
      {
       if(OrdersTotal() > 0)
         {
@@ -90,7 +129,7 @@ void ApplyDirectlyStrategy::Execute()
       OrderSend(Symbol(), OP_BUY, 0.02, Ask, 0, 0, 0, NULL, 1233214);
      }
 
-   if(base_line_signal == SELL && confirm_indicator1_signal == SELL && confirm_indicator2_signal == SELL)
+   if(base_line_signal == SELL && all_sell)
      {
       if(OrdersTotal() > 0)
         {

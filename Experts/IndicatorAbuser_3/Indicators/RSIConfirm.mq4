@@ -14,29 +14,29 @@ private:
    int                    period;
 public:
                      RSIConfirm() {};
-                     RSIConfirm(ENUM_APPLIED_PRICE applied_price, int period)
+                     RSIConfirm(ENUM_APPLIED_PRICE applied_price_input, int period_input)
      {
-      this.applied_price = applied_price;
-      this.period = period;
+      this.applied_price = applied_price_input;
+      this.period = period_input;
      }
 
-   double            GetValue();
-   SIGNAL_TYPE       GetSignal();
+   double            GetValue(double shift);
+   SIGNAL_TYPE       GetSignal(double shift);
   };
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
-double RSIConfirm::GetValue(void)
+double RSIConfirm::GetValue(double shift)
   {
    double result =  iRSI(Symbol(), Period(), this.period, this.applied_price, 0);
    return NormalizeDouble(result, 3);
   }
 //+------------------------------------------------------------------+
-SIGNAL_TYPE RSIConfirm::GetSignal(void)
+SIGNAL_TYPE RSIConfirm::GetSignal(double shift)
   {
-   double rsi = this.GetValue();
+   double rsi = this.GetValue(shift);
 
    if(rsi > 70)
      {

@@ -25,33 +25,52 @@ public:
       m_shift = back_shift;
      }
 
-   double            GetValue();
-   SIGNAL_TYPE       GetSignal();
+   double            GetValue(double shift);
+   SIGNAL_TYPE       GetSignal(double shift);
   };
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
-double MACandleCloseInDirection::GetValue(void)
+double MACandleCloseInDirection::GetValue(double shift)
   {
-   double val = iMA(Symbol(), Period(), this.ma_period, this.ma_shift, this.ma_type, this.ma_applied_price, this.m_shift);
+   double val = iMA(Symbol(), Period(), this.ma_period, this.ma_shift, this.ma_type, this.ma_applied_price, shift);
    return NormalizeDouble(val, 3);
   }
 //+------------------------------------------------------------------+
-SIGNAL_TYPE MACandleCloseInDirection::GetSignal(void)
+SIGNAL_TYPE MACandleCloseInDirection::GetSignal(double shift)
   {
-   double close_price = iClose(Symbol(), Period(), 1);
-   double open_price = iOpen(Symbol(), Period(), 1);
-   double base_line = this.GetValue();
+   double close_price = iClose(Symbol(), Period(), 1 + shift);
+   double open_price = iOpen(Symbol(), Period(), 1 + shift);
+   double base_line = this.GetValue(shift);
 
    if(close_price > base_line && open_price < base_line)
      {
+     // TODO if all candles to now are above and price is in atr
+      for(int i=0;i<shift;i++)
+        {
+         double close = iClose(Symbol(), Period(), 1 + i);
+         double currBase = this.GetValue(i);
+         if(close < currBase)
+           {
+            return NO_SIGNAL;
+           }
+        }
       return BUY;
      }
 
    if(close_price < base_line && open_price > base_line)
      {
+       for(int i=0;i<shift;i++)
+        {
+         double close = iClose(Symbol(), Period(), 1 + i);
+         double currBase = this.GetValue(i);
+         if(close > currBase)
+           {
+            return NO_SIGNAL;
+           }
+        }
       return SELL;
      }
 

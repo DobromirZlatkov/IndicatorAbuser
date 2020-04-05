@@ -23,12 +23,12 @@ public:
       signal_method = input_signal_method;
      }
 
-   double            GetValue();
-   SIGNAL_TYPE       GetSignal();
+   double            GetValue(double shift);
+   SIGNAL_TYPE       GetSignal(double shift);
   };
 //+------------------------------------------------------------------+
 
-double REXCross::GetValue(void)
+double REXCross::GetValue(double shift)
   {
    return 0;
   }
@@ -36,7 +36,7 @@ double REXCross::GetValue(void)
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
-SIGNAL_TYPE REXCross::GetSignal(void)
+SIGNAL_TYPE REXCross::GetSignal(double shift)
   {
    double green = iCustom(Symbol(), Period(), "Rex", smoothing_length, smoothing_method, signal_length, signal_method, 0, 0);
    double red = iCustom(Symbol(), Period(), "Rex", smoothing_length, smoothing_method, signal_length, signal_method, 1, 0);

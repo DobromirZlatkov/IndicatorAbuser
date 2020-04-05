@@ -1,3 +1,8 @@
+//+------------------------------------------------------------------+
+//|                                                      ProjectName |
+//|                                      Copyright 2018, Toby away |
+//|                                       http://www.companyname.net |
+//+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
 //|                                                                  |
@@ -5,19 +10,21 @@
 class ATRStopLoss : public IOrderLogic
   {
 private:
-   double                    increase_factor;
+   double                    period;
+   double                    emplifier;
    int                       modified;
 public:
                      ATRStopLoss() {};
-                     ATRStopLoss(double increase_factor)
+                     ATRStopLoss(double periodInput, double emplifierInput)
      {
-      this.increase_factor = increase_factor;
+      this.period = periodInput;
+      this.emplifier = emplifierInput;
       this.modified = 0;
      }
 
-   void            Execute();
+   void              Execute();
   };
-  
+
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
@@ -25,7 +32,41 @@ public:
 //+------------------------------------------------------------------+
 void ATRStopLoss::Execute(void)
   {
-   Print("executing");
-   
+
+
+   for(int i = 0; i < OrdersTotal(); i++)
+     {
+      if(OrderSelect(i, SELECT_BY_POS))
+        {
+         if(OrderStopLoss() != NULL)
+           {
+            continue;
+           }
+
+         double atr = iATR(Symbol(), Period(), this.period, 0);
+
+         if(OrderType() == OP_BUY)
+           {
+            double slDiff = atr * this.emplifier;
+            double sl = OrderOpenPrice() - slDiff;
+            if(OrderModify(OrderTicket(), OrderOpenPrice(), sl, OrderTakeProfit(), NULL, clrNavy))
+              {
+               Print("Added sl");
+              }
+           }
+
+         if(OrderType() == OP_SELL)
+           {
+            double slDiff = atr * this.emplifier;
+            double sl = OrderOpenPrice() + slDiff;
+            if(OrderModify(OrderTicket(), OrderOpenPrice(), sl, OrderTakeProfit(), NULL, clrNavy))
+              {
+               Print("Added sl");
+              }
+           }
+        }
+     }
+
   }
 
+//+------------------------------------------------------------------+

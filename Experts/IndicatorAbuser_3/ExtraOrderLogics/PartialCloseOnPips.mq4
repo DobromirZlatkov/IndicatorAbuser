@@ -10,10 +10,10 @@ private:
    int                       modified;
 public:
                      PartialCloseOnPips() {};
-                     PartialCloseOnPips(double lots_to_close, double pips)
+                     PartialCloseOnPips(double lots_to_close_input, double pips_input)
      {
-      this.lots_to_close = lots_to_close;
-      this.pips = pips;
+      this.lots_to_close = lots_to_close_input;
+      this.pips = pips_input;
       this.modified = 0;
      }
 
@@ -38,13 +38,14 @@ void PartialCloseOnPips::Execute(void)
             
             if(priceDiff >= this.pips && OrderLots() > lots_to_close)
               {
-               OrderClose(OrderTicket(), lots_to_close, Bid, 0, clrBlueViolet);
-              
-               if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
-                 {
-                  OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
-                  this.modified = OrderTicket();
-                 }
+                  if(OrderClose(OrderTicket(), lots_to_close, Bid, 0, clrBlueViolet))
+                   {
+                     if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+                       {
+                        OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                        this.modified = OrderTicket();
+                       }
+                   }
               }
            }
 

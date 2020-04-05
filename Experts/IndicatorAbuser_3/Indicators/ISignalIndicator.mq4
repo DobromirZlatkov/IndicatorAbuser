@@ -7,8 +7,8 @@
 
 interface ISignalIndicator
   {
-   SIGNAL_TYPE GetSignal();
+   SIGNAL_TYPE GetSignal(double shift);
 
-   double GetValue();
+   double GetValue(double shift);
   };
 //+------------------------------------------------------------------+

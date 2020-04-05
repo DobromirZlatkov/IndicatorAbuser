@@ -29,10 +29,24 @@ extern int RSI_ECONFIRM_PERIOD = 14;
 
 input CONFIRMATION_TYPES CONFIRMATION_2_TYPE = CMF_CONFIRM;
 extern int CMF_ECONFIRM_PERIOD = 20;
+extern double CMF_UP = 0.1;
+extern double CMF_DOWN = -0.1;
+
+input CONFIRMATION_TYPES CONFIRMATION_3_TYPE = TRADING_HOURS_CONFIRM;
+extern int DONT_TRADE_AFTER = 22;
+extern int DONT_TRADE_BEFORE = 8;
 
 input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC = PARTIAL_CLOSE_ON_PIPS;
 extern double PRICE_DIFF = 0.03;
 extern double LOT_TO_CLOSE = 0.01;
+
+input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC_2 = ATR_STOP_LOSS;
+extern double ATR_STOP_LOSS_PERIOD = 14;
+extern double ATR_STOP_LOSS_EMPLIFIER = 1.5;
+
+input EXTRA_ORDER_LOGICS EXTRA_ORDER_LOGIC_3 = ADX_EXIT;
+extern double ADX_CLOSE_ABOVE = 58;
+extern double ADX_TOP_ABOVE = 40;
 
 
 IStrategy* strategy;
@@ -67,11 +81,25 @@ int OnInit()
       // COMFIRM 2 INDICATOR
       CONFIRMATION_2_TYPE,
       CMF_ECONFIRM_PERIOD,
+      CMF_UP,
+      CMF_DOWN,
+      
+      // CONFIRM 3 INDICATOR
+      CONFIRMATION_3_TYPE,
+      DONT_TRADE_AFTER,
+      DONT_TRADE_BEFORE,
       
       // EXTRA ORDER LOGIC
       EXTRA_ORDER_LOGIC,
       PRICE_DIFF,
-      LOT_TO_CLOSE
+      LOT_TO_CLOSE,
+      EXTRA_ORDER_LOGIC_2,
+      ATR_STOP_LOSS_PERIOD,
+      ATR_STOP_LOSS_EMPLIFIER,
+      EXTRA_ORDER_LOGIC_3,
+      ADX_CLOSE_ABOVE,
+      ADX_TOP_ABOVE
+      
       );
 
    strategy = strategy_builder.Build();

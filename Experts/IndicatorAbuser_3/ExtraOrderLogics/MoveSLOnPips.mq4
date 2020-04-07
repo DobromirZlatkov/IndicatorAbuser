@@ -37,19 +37,25 @@ void MoveSLOnPips::Execute(void)
            {
             double priceDiff = Bid - OrderOpenPrice();
 
-            if(priceDiff >= this.pips && !(OrderStopLoss() > 0))
+            if(priceDiff >= this.pips && (OrderStopLoss() != OrderOpenPrice()))
               {
-               OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+               if(OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy))
+               {
+                  Print("Move sl on pips");
+               }
               }
            }
 
          if(OrderType() == OP_SELL)
            {
             double priceDiff = OrderOpenPrice() - Ask;
-
-            if(priceDiff >= this.pips && !(OrderStopLoss() > 0))
+            
+            if(priceDiff >= this.pips && (OrderStopLoss() != OrderOpenPrice()))
               {
-               OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                if(OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy))
+                {
+                 Print("Move sl on pips");
+                }
               }
            }
         }

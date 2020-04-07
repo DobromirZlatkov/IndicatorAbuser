@@ -47,7 +47,7 @@ void MoveSLOnPips::Execute(void)
            {
             double priceDiff = OrderOpenPrice() - Ask;
 
-            if(priceDiff >= this.pips && !(OrderStopLoss() != OrderOpenPrice()))
+            if(priceDiff >= this.pips && !(OrderStopLoss() > 0))
               {
                OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
               }

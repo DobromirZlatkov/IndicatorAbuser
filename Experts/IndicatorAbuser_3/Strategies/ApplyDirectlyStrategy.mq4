@@ -73,7 +73,8 @@ bool ApplyDirectlyStrategy::IsNewCandle()
 //+------------------------------------------------------------------+
 double ApplyDirectlyStrategy::CalculateLot()
   {
-   double lot_size = 0.48;
+   double lot_size = 0.02;
+   return lot_size;
    for(int i = OrdersHistoryTotal() - 1; i > 0; i--)
      {
       if(OrderSelect(i, SELECT_BY_POS,MODE_HISTORY))

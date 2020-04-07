@@ -1,3 +1,8 @@
+//+------------------------------------------------------------------+
+//|                                                      ProjectName |
+//|                                      Copyright 2018, CompanyName |
+//|                                       http://www.companyname.net |
+//+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
 //|                                                                  |
@@ -17,9 +22,9 @@ public:
       this.modified = 0;
      }
 
-   void            Execute();
+   void              Execute();
   };
-  
+
 //+------------------------------------------------------------------+
 
 //+------------------------------------------------------------------+
@@ -27,76 +32,56 @@ public:
 //+------------------------------------------------------------------+
 void PartialCloseOnPips::Execute(void)
   {
-   
-    for(int i=0; i<OrdersTotal(); i++)
+
+   for(int i=0; i<OrdersTotal(); i++)
      {
       if(OrderSelect(i, SELECT_BY_POS))
         {
          double lots_to_close = NormalizeDouble(OrderLots() / this.lots_to_close, 3);
-         
+
          if(OrderType() == OP_BUY)
            {
             double priceDiff = Bid - OrderOpenPrice();
-            
-            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
-              {
-                  if(OrderClose(OrderTicket(), lots_to_close, Bid, 0, clrBlueViolet))
-                   {
-                     if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
-                       {
-                        OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
-                        this.modified = OrderTicket();
-                       }
-                   }
-              }
-           }
 
-         if(OrderType() == OP_SELL)
-           {
-            double priceDiff = OrderOpenPrice() - Ask;
-            
             if(priceDiff >= this.pips && OrderLots() > lots_to_close)
               {
-               OrderClose(OrderTicket(), lots_to_close, Ask, 0, clrBlueViolet);
-               
-                if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+               if(OrderClose(OrderTicket(), lots_to_close, Bid, 0, clrBlueViolet))
                  {
-                   OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
-                   this.modified = OrderTicket();
+                  if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+                    {
+                     OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                     this.modified = OrderTicket();
+                    }
+                 }
+               else
+                 {
+                  Print("problem");
                  }
               }
            }
-        }
-     }
-     
-     for(int i=0; i<OrdersTotal(); i++)
-     {
-      if(OrderSelect(i, SELECT_BY_POS))
-        {
-         if(OrderType() == OP_BUY)
-           {
-            double priceDiff = Bid - OrderOpenPrice();
-            
-            if(priceDiff >= this.pips && OrderLots() > lots_to_close)
-              {
-               OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
-               
-               this.modified = OrderTicket();
-              }
-           }
 
          if(OrderType() == OP_SELL)
            {
             double priceDiff = OrderOpenPrice() - Ask;
-            
+
             if(priceDiff >= this.pips && OrderLots() > lots_to_close)
               {
-               OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
-               
-               this.modified = OrderTicket();
+               if(OrderClose(OrderTicket(), lots_to_close, Ask, 0, clrBlueViolet))
+                 {
+                  if(OrderSelect(OrdersTotal() - 1, SELECT_BY_POS))
+                    {
+                     OrderModify(OrderTicket(), OrderOpenPrice(), OrderOpenPrice(), OrderTakeProfit(), NULL, clrNavy);
+                     this.modified = OrderTicket();
+                    }
+                 }
+               else
+               {
+                Print("problem 2");
+               }  
               }
            }
         }
      }
   }
 
+//+------------------------------------------------------------------+

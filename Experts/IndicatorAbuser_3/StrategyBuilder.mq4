@@ -36,7 +36,8 @@ enum EXTRA_ORDER_LOGICS
    PARTIAL_CLOSE_ON_PIPS = 1,
    ATR_STOP_LOSS = 2,
    ADX_EXIT = 3,
-   EXIT_ON_ALL_CONFIRM = 4
+   EXIT_ON_ALL_CONFIRM = 4,
+   MOVE_SL_ON_PIPS = 5
   };
 //+------------------------------------------------------------------+
 //|                                                                  |
@@ -83,6 +84,9 @@ private:
    double adx_top_above;
    
    EXTRA_ORDER_LOGICS extra_order_logic_4;
+   
+   EXTRA_ORDER_LOGICS extra_order_logic_5;
+   double move_sl_on_pips_diff;
 
 public:
                      StrategyBuilder() {};
@@ -126,8 +130,10 @@ public:
       double adx_close_above_input,
       double adx_top_above_input,
       
-      EXTRA_ORDER_LOGICS extra_order_logic_4_input
-
+      EXTRA_ORDER_LOGICS extra_order_logic_4_input,
+      
+      EXTRA_ORDER_LOGICS extra_order_logic_5_input,
+      double move_sl_on_pips_diff_input
    )
      {
       this.m_strategy = strategy;
@@ -169,6 +175,9 @@ public:
       this.adx_top_above = adx_top_above_input;
       
       this.extra_order_logic_4 = extra_order_logic_4_input;
+      
+      this.extra_order_logic_5 = extra_order_logic_5_input;
+      this.move_sl_on_pips_diff = move_sl_on_pips_diff_input;
      }
 
    IStrategy*        Build();
@@ -239,7 +248,7 @@ IStrategy* StrategyBuilder::Build()
       Print("StrategyBuilder CONFIRMATION_2_TYPES is invalid");
      }
      
-   IOrderLogic* order_logics[4];
+   IOrderLogic* order_logics[5];
    
    if(this.extra_order_logic == NONE)
      {
@@ -295,8 +304,21 @@ IStrategy* StrategyBuilder::Build()
    else
      {
       Print("StrategyBuilder extra_order_logic_4 is invalid");
-     }    
-
+     }  
+    
+   if(this.extra_order_logic_5 == NONE)
+     {
+      order_logics[4] = new None();
+     }  
+   else if(this.extra_order_logic_5 == MOVE_SL_ON_PIPS)
+     {
+      order_logics[4] = new MoveSLOnPips(this.move_sl_on_pips_diff);
+     }  
+   else
+     {
+      Print("StrategyBuilder extra_order_logic_5 is invalid");
+     } 
+      
    if(this.m_strategy == APPLY_DIRECTLY_STRATEGY)
      {
       return new ApplyDirectlyStrategy(base_line, exit_indicator, confirm_indicators, order_logics, dont_trade_after, dont_trade_before);
